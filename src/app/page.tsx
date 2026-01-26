@@ -7,7 +7,7 @@ const featuredProperties = [
     id: 'A',
     title: "Appartamento A",
     location: "Chiasso",
-    price: "CHF 1'800/mese",
+    price: "CHF 350'000",
     image: "/images/RENDER REV_1/APPARTAMENTO A/1.png",
     beds: 2,
     baths: 1,
@@ -17,7 +17,7 @@ const featuredProperties = [
     id: 'C',
     title: "Appartamento C",
     location: "Chiasso",
-    price: "CHF 2'100/mese",
+    price: "CHF 450'000",
     image: "/images/RENDER REV_1/APPARTAMENTO C/1.png",
     beds: 3,
     baths: 2,
@@ -27,7 +27,7 @@ const featuredProperties = [
     id: 'F',
     title: "Appartamento F",
     location: "Chiasso",
-    price: "CHF 2'200/mese",
+    price: "CHF 520'000",
     image: "/images/RENDER REV_1/APPARTAMENTO F/1.png",
     beds: 3,
     baths: 2,
@@ -149,7 +149,7 @@ export default function Home() {
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors" />
                   <div className="absolute top-4 left-4 bg-[#38bdf8] text-white px-3 py-1 rounded-full text-sm font-medium">
-                    Affitto
+                    Vendita
                   </div>
                 </div>
                 <div className="p-6">

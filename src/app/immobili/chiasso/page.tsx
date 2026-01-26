@@ -14,7 +14,7 @@ export default function ImmobiliChiasso() {
             Appartamenti a Chiasso
           </h1>
           <p className="mt-4 text-lg text-gray-200 max-w-2xl mx-auto">
-            Scopri i nostri 7 appartamenti in affitto a Chiasso, moderni e con finiture di alta qualità
+            Scopri i nostri 7 appartamenti in vendita a Chiasso, moderni e con finiture di alta qualità
           </p>
         </div>
       </section>
@@ -41,7 +41,7 @@ export default function ImmobiliChiasso() {
             <svg className="w-5 h-5 text-[#1e6bb8]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
-            <span className="font-medium">Tutti gli appartamenti sono disponibili in affitto - Clicca su un appartamento per vedere i dettagli</span>
+            <span className="font-medium">Tutti gli appartamenti sono in vendita - Clicca su un appartamento per vedere i dettagli</span>
           </div>
         </div>
       </section>

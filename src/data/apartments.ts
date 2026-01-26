@@ -25,9 +25,9 @@ export const apartments: Apartment[] = [
     title: "Appartamento A",
     address: "Via Example 1",
     city: "Chiasso",
-    price: "CHF 1'800/mese",
-    priceNumeric: 1800,
-    type: "Affitto",
+    price: "CHF 350'000",
+    priceNumeric: 350000,
+    type: "Vendita",
     images: [
       "/images/RENDER REV_1/APPARTAMENTO A/1.png",
       "/images/RENDER REV_1/APPARTAMENTO A/2.png",
@@ -41,7 +41,7 @@ export const apartments: Apartment[] = [
     baths: 1,
     sqm: 75,
     floor: "Piano Terra",
-    availability: "Disponibile subito",
+    availability: "Disponibile",
     description: "Moderno appartamento con finiture di pregio e ottima luminosità.",
     longDescription: `Splendido appartamento di nuova costruzione situato in una posizione strategica a Chiasso. 
     
@@ -60,15 +60,13 @@ La posizione dell'appartamento permette di raggiungere facilmente tutti i serviz
       "Posto auto incluso",
     ],
     included: [
-      "Spese condominiali",
-      "Riscaldamento",
-      "Acqua calda",
       "Posto auto",
+      "Cantina",
+      "Cucina attrezzata",
     ],
     notIncluded: [
-      "Elettricità",
-      "Internet/TV",
-      "Assicurazione contenuto",
+      "Spese notarili",
+      "Spese di registro",
     ],
   },
   {
@@ -76,9 +74,9 @@ La posizione dell'appartamento permette di raggiungere facilmente tutti i serviz
     title: "Appartamento B",
     address: "Via Example 1",
     city: "Chiasso",
-    price: "CHF 1'900/mese",
-    priceNumeric: 1900,
-    type: "Affitto",
+    price: "CHF 380'000",
+    priceNumeric: 380000,
+    type: "Vendita",
     images: [
       "/images/RENDER REV_1/APPARTAMENTO B/1.png",
       "/images/RENDER REV_1/APPARTAMENTO B/2.png",
@@ -93,7 +91,7 @@ La posizione dell'appartamento permette di raggiungere facilmente tutti i serviz
     baths: 1,
     sqm: 80,
     floor: "Primo Piano",
-    availability: "Disponibile subito",
+    availability: "Disponibile",
     description: "Appartamento spazioso con ampio soggiorno e cucina moderna.",
     longDescription: `Elegante appartamento al primo piano con layout ottimizzato per sfruttare al meglio ogni metro quadro.
 
@@ -112,15 +110,13 @@ La posizione centrale permette di raggiungere a piedi tutti i principali servizi
       "Tapparelle elettriche",
     ],
     included: [
-      "Spese condominiali",
-      "Riscaldamento",
-      "Acqua calda",
       "Posto auto",
+      "Cantina",
+      "Cucina attrezzata",
     ],
     notIncluded: [
-      "Elettricità",
-      "Internet/TV",
-      "Assicurazione contenuto",
+      "Spese notarili",
+      "Spese di registro",
     ],
   },
   {
@@ -128,9 +124,9 @@ La posizione centrale permette di raggiungere a piedi tutti i principali servizi
     title: "Appartamento C",
     address: "Via Example 1",
     city: "Chiasso",
-    price: "CHF 2'100/mese",
-    priceNumeric: 2100,
-    type: "Affitto",
+    price: "CHF 450'000",
+    priceNumeric: 450000,
+    type: "Vendita",
     images: [
       "/images/RENDER REV_1/APPARTAMENTO C/1.png",
       "/images/RENDER REV_1/APPARTAMENTO C/2.png",
@@ -145,7 +141,7 @@ La posizione centrale permette di raggiungere a piedi tutti i principali servizi
     baths: 2,
     sqm: 95,
     floor: "Secondo Piano",
-    availability: "Disponibile subito",
+    availability: "Disponibile",
     description: "Elegante trilocale con doppi servizi e balcone panoramico.",
     longDescription: `Prestigioso appartamento trilocale che offre spazi generosi e finiture di alto livello.
 
@@ -164,15 +160,14 @@ Ideale per famiglie o professionisti che cercano spazio e comfort in una posizio
       "Cantina e posto auto",
     ],
     included: [
-      "Spese condominiali",
-      "Riscaldamento",
-      "Acqua calda",
       "Posto auto",
+      "Cantina",
+      "Cucina attrezzata",
+      "Climatizzazione",
     ],
     notIncluded: [
-      "Elettricità",
-      "Internet/TV",
-      "Assicurazione contenuto",
+      "Spese notarili",
+      "Spese di registro",
     ],
   },
   {
@@ -180,9 +175,9 @@ Ideale per famiglie o professionisti che cercano spazio e comfort in una posizio
     title: "Appartamento D",
     address: "Via Example 1",
     city: "Chiasso",
-    price: "CHF 1'700/mese",
-    priceNumeric: 1700,
-    type: "Affitto",
+    price: "CHF 320'000",
+    priceNumeric: 320000,
+    type: "Vendita",
     images: [
       "/images/RENDER REV_1/APPARTAMENTO D/1.png",
       "/images/RENDER REV_1/APPARTAMENTO D/2.png",
@@ -195,34 +190,32 @@ Ideale per famiglie o professionisti che cercano spazio e comfort in una posizio
     baths: 1,
     sqm: 70,
     floor: "Piano Terra",
-    availability: "Disponibile subito",
+    availability: "Disponibile",
     description: "Appartamento accogliente con layout funzionale e ben organizzato.",
-    longDescription: `Appartamento compatto ma ben organizzato, ideale per coppie o singoli professionisti.
+    longDescription: `Appartamento compatto ma ben organizzato, ideale per coppie o giovani professionisti.
 
 Gli spazi sono stati progettati con intelligenza per ottimizzare ogni ambiente. Il soggiorno con angolo cottura è luminoso e accogliente, con accesso diretto al giardino condominiale.
 
-Le due camere da letto sono confortevoli e silenziose, affacciate sul lato interno dell'edificio. Il bagno è moderno e funzionale, con lavatrice integrata.
+Le due camere da letto sono confortevoli e silenziose, affacciate sul lato interno dell'edificio. Il bagno è moderno e funzionale.
 
 La posizione al piano terra con accesso al giardino rende questo appartamento particolarmente adatto a chi ama gli spazi esterni.`,
     features: [
       "Accesso diretto al giardino",
       "Angolo cottura moderno",
-      "Lavatrice in bagno",
       "Ripostiglio",
       "Riscaldamento a pavimento",
       "Infissi nuovi",
       "Posto bici coperto",
     ],
     included: [
-      "Spese condominiali",
-      "Riscaldamento",
-      "Acqua calda",
       "Uso giardino comune",
+      "Cantina",
+      "Cucina attrezzata",
     ],
     notIncluded: [
-      "Elettricità",
-      "Internet/TV",
-      "Posto auto (disponibile a CHF 100/mese)",
+      "Spese notarili",
+      "Spese di registro",
+      "Posto auto (disponibile separatamente)",
     ],
   },
   {
@@ -230,9 +223,9 @@ La posizione al piano terra con accesso al giardino rende questo appartamento pa
     title: "Appartamento E",
     address: "Via Example 1",
     city: "Chiasso",
-    price: "CHF 1'750/mese",
-    priceNumeric: 1750,
-    type: "Affitto",
+    price: "CHF 340'000",
+    priceNumeric: 340000,
+    type: "Vendita",
     images: [
       "/images/RENDER REV_1/APPARTAMENTO E/1.png",
       "/images/RENDER REV_1/APPARTAMENTO E/2.png",
@@ -245,7 +238,7 @@ La posizione al piano terra con accesso al giardino rende questo appartamento pa
     baths: 1,
     sqm: 72,
     floor: "Primo Piano",
-    availability: "Disponibile subito",
+    availability: "Disponibile",
     description: "Bilocale luminoso con finiture moderne e ottima esposizione.",
     longDescription: `Luminoso bilocale con esposizione est-ovest che garantisce luce naturale durante tutta la giornata.
 
@@ -264,15 +257,13 @@ Perfetto per giovani professionisti o coppie che cercano un appartamento moderno
       "Cantina",
     ],
     included: [
-      "Spese condominiali",
-      "Riscaldamento",
-      "Acqua calda",
       "Posto auto",
+      "Cantina",
+      "Cucina attrezzata",
     ],
     notIncluded: [
-      "Elettricità",
-      "Internet/TV",
-      "Assicurazione contenuto",
+      "Spese notarili",
+      "Spese di registro",
     ],
   },
   {
@@ -280,9 +271,9 @@ Perfetto per giovani professionisti o coppie che cercano un appartamento moderno
     title: "Appartamento F",
     address: "Via Example 1",
     city: "Chiasso",
-    price: "CHF 2'200/mese",
-    priceNumeric: 2200,
-    type: "Affitto",
+    price: "CHF 520'000",
+    priceNumeric: 520000,
+    type: "Vendita",
     images: [
       "/images/RENDER REV_1/APPARTAMENTO F/1.png",
       "/images/RENDER REV_1/APPARTAMENTO F/2.png",
@@ -297,7 +288,7 @@ Perfetto per giovani professionisti o coppie che cercano un appartamento moderno
     baths: 2,
     sqm: 100,
     floor: "Secondo Piano",
-    availability: "Disponibile subito",
+    availability: "Disponibile",
     description: "Ampio trilocale con terrazzo e vista aperta, perfetto per famiglie.",
     longDescription: `Spazioso appartamento trilocale che rappresenta la soluzione ideale per famiglie che cercano comfort e qualità.
 
@@ -317,15 +308,15 @@ Le finiture sono di altissimo livello: parquet in rovere, infissi in legno-allum
       "Cantina grande",
     ],
     included: [
-      "Spese condominiali",
-      "Riscaldamento",
-      "Acqua calda",
       "Doppio posto auto",
+      "Cantina",
+      "Cucina attrezzata",
+      "Climatizzazione",
+      "Impianto domotico",
     ],
     notIncluded: [
-      "Elettricità",
-      "Internet/TV",
-      "Assicurazione contenuto",
+      "Spese notarili",
+      "Spese di registro",
     ],
   },
   {
@@ -333,9 +324,9 @@ Le finiture sono di altissimo livello: parquet in rovere, infissi in legno-allum
     title: "Appartamento G",
     address: "Via Example 1",
     city: "Chiasso",
-    price: "CHF 1'850/mese",
-    priceNumeric: 1850,
-    type: "Affitto",
+    price: "CHF 390'000",
+    priceNumeric: 390000,
+    type: "Vendita",
     images: [
       "/images/RENDER REV_1/APPARTAMENTO G/1.png",
       "/images/RENDER REV_1/APPARTAMENTO G/2.png",
@@ -349,7 +340,7 @@ Le finiture sono di altissimo livello: parquet in rovere, infissi in legno-allum
     baths: 1,
     sqm: 78,
     floor: "Attico",
-    availability: "Disponibile subito",
+    availability: "Disponibile",
     description: "Appartamento di design con cucina open space e ambienti luminosi.",
     longDescription: `Esclusivo appartamento all'ultimo piano con caratteristiche uniche e design contemporaneo.
 
@@ -369,15 +360,14 @@ La posizione all'ultimo piano garantisce privacy, silenzio e una vista privilegi
       "Posto auto coperto",
     ],
     included: [
-      "Spese condominiali",
-      "Riscaldamento",
-      "Acqua calda",
       "Posto auto coperto",
+      "Cantina",
+      "Cucina attrezzata",
+      "Climatizzazione",
     ],
     notIncluded: [
-      "Elettricità",
-      "Internet/TV",
-      "Assicurazione contenuto",
+      "Spese notarili",
+      "Spese di registro",
     ],
   },
 ];
