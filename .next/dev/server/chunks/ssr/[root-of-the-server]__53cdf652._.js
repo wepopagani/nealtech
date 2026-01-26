@@ -30,37 +30,37 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 ;
 ;
 ;
-// Appartamenti in evidenza - Chiasso
+// Appartamenti in evidenza - Chiasso (solo disponibili)
 const featuredProperties = [
     {
         id: 'A',
         title: "Appartamento A",
         location: "Chiasso",
-        price: "CHF 350'000",
+        price: "CHF 230'000",
         image: "/images/RENDER REV_1/APPARTAMENTO A/1.png",
+        beds: 1,
+        baths: 1,
+        sqm: 32
+    },
+    {
+        id: 'G',
+        title: "Appartamento G",
+        location: "Chiasso",
+        price: "CHF 330'000",
+        image: "/images/RENDER REV_1/APPARTAMENTO G/1.png",
         beds: 2,
         baths: 1,
-        sqm: 75
+        sqm: 58
     },
     {
         id: 'C',
         title: "Appartamento C",
         location: "Chiasso",
-        price: "CHF 450'000",
+        price: "CHF 350'000",
         image: "/images/RENDER REV_1/APPARTAMENTO C/1.png",
-        beds: 3,
-        baths: 2,
-        sqm: 95
-    },
-    {
-        id: 'F',
-        title: "Appartamento F",
-        location: "Chiasso",
-        price: "CHF 520'000",
-        image: "/images/RENDER REV_1/APPARTAMENTO F/1.png",
-        beds: 3,
-        baths: 2,
-        sqm: 100
+        beds: 2,
+        baths: 1,
+        sqm: 64
     }
 ];
 const services = [
@@ -369,7 +369,7 @@ function Home() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "absolute top-4 left-4 bg-[#38bdf8] text-white px-3 py-1 rounded-full text-sm font-medium",
-                                                    children: "Affitto"
+                                                    children: "Vendita"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/page.tsx",
                                                     lineNumber: 151,

@@ -78,7 +78,7 @@ export default function ImmobiliChiasso() {
       {/* Apartments Grid */}
       <section className="py-12 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-[#64748b] mb-8">{apartments.length} appartamenti disponibili a Chiasso</p>
+          <p className="text-[#64748b] mb-8">{apartments.length} appartamenti a Chiasso ({apartments.filter(a => a.availability !== 'Venduto').length} disponibili)</p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {apartments.map((apartment) => (
@@ -97,11 +97,16 @@ export default function ImmobiliChiasso() {
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors" />
                   
-                  {/* Badge Affitto */}
+                  {/* Badge Vendita/Venduto */}
                   <div className="absolute top-4 left-4 flex gap-2">
                     <span className="bg-[#38bdf8] text-white px-3 py-1 rounded-full text-sm font-medium">
                       {apartment.type}
                     </span>
+                    {apartment.availability === 'Venduto' && (
+                      <span className="bg-red-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                        VENDUTO
+                      </span>
+                    )}
                   </div>
 
                   {/* Photo count */}
@@ -128,7 +133,7 @@ export default function ImmobiliChiasso() {
                     </span>
                   </div>
                   
-                  <p className="text-2xl font-bold text-[#1e6bb8] mt-3">{apartment.price}</p>
+                  <p className={`text-2xl font-bold mt-3 ${apartment.price === 'VENDUTO' ? 'text-red-600' : 'text-[#1e6bb8]'}`}>{apartment.price}</p>
                   <p className="text-[#64748b] text-sm mt-2 line-clamp-2">{apartment.description}</p>
                   
                   <div className="flex items-center justify-between mt-4 pt-4 border-t border-gray-100">

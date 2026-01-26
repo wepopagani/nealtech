@@ -121,7 +121,7 @@ export default function ApartmentDetailClient({ apartment }: { apartment: Apartm
           <div>
             <div className="flex items-center gap-3 mb-2">
               <span className="bg-[#38bdf8] text-white px-3 py-1 rounded-full text-sm font-medium">{apartment.type}</span>
-              <span className="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-medium">{apartment.availability}</span>
+              <span className={`px-3 py-1 rounded-full text-sm font-medium ${apartment.availability === 'Venduto' ? 'bg-red-100 text-red-700' : 'bg-green-100 text-green-700'}`}>{apartment.availability}</span>
             </div>
             <h1 className="text-3xl md:text-4xl font-bold text-[#0d2644]">{apartment.title}</h1>
             <p className="text-[#64748b] mt-2 flex items-center">
@@ -130,7 +130,7 @@ export default function ApartmentDetailClient({ apartment }: { apartment: Apartm
             </p>
           </div>
           <div className="text-right">
-            <p className="text-3xl md:text-4xl font-bold text-[#1e6bb8]">{apartment.price}</p>
+            <p className={`text-3xl md:text-4xl font-bold ${apartment.price === 'VENDUTO' ? 'text-red-600' : 'text-[#1e6bb8]'}`}>{apartment.price}</p>
           </div>
         </div>
 

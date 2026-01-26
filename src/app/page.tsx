@@ -1,37 +1,37 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-// Appartamenti in evidenza - Chiasso
+// Appartamenti in evidenza - Chiasso (solo disponibili)
 const featuredProperties = [
   {
     id: 'A',
     title: "Appartamento A",
     location: "Chiasso",
-    price: "CHF 350'000",
+    price: "CHF 230'000",
     image: "/images/RENDER REV_1/APPARTAMENTO A/1.png",
+    beds: 1,
+    baths: 1,
+    sqm: 32,
+  },
+  {
+    id: 'G',
+    title: "Appartamento G",
+    location: "Chiasso",
+    price: "CHF 330'000",
+    image: "/images/RENDER REV_1/APPARTAMENTO G/1.png",
     beds: 2,
     baths: 1,
-    sqm: 75,
+    sqm: 58,
   },
   {
     id: 'C',
     title: "Appartamento C",
     location: "Chiasso",
-    price: "CHF 450'000",
+    price: "CHF 350'000",
     image: "/images/RENDER REV_1/APPARTAMENTO C/1.png",
-    beds: 3,
-    baths: 2,
-    sqm: 95,
-  },
-  {
-    id: 'F',
-    title: "Appartamento F",
-    location: "Chiasso",
-    price: "CHF 520'000",
-    image: "/images/RENDER REV_1/APPARTAMENTO F/1.png",
-    beds: 3,
-    baths: 2,
-    sqm: 100,
+    beds: 2,
+    baths: 1,
+    sqm: 64,
   },
 ];
 
