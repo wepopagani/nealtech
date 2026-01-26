@@ -1,0 +1,12 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/apple-icon.png/route": "/apple-icon.png",
+  "/contatti/page": "/contatti",
+  "/icon.png/route": "/icon.png",
+  "/immobili/chiasso/[id]/page": "/immobili/chiasso/[id]",
+  "/immobili/chiasso/page": "/immobili/chiasso",
+  "/immobili/pambio/page": "/immobili/pambio",
+  "/page": "/",
+  "/servizi/page": "/servizi"
+}

@@ -1,0 +1,12 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/apple-icon.png/route": "app/apple-icon.png/route.js",
+  "/contatti/page": "app/contatti/page.js",
+  "/icon.png/route": "app/icon.png/route.js",
+  "/immobili/chiasso/[id]/page": "app/immobili/chiasso/[id]/page.js",
+  "/immobili/chiasso/page": "app/immobili/chiasso/page.js",
+  "/immobili/pambio/page": "app/immobili/pambio/page.js",
+  "/page": "app/page.js",
+  "/servizi/page": "app/servizi/page.js"
+}

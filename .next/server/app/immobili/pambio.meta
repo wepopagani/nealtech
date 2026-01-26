@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/immobili/layout,_N_T_/immobili/pambio/layout,_N_T_/immobili/pambio/page,_N_T_/immobili/pambio/"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/immobili/pambio/__PAGE__",
+    "/immobili/pambio",
+    "/immobili",
+    "/_index",
+    "/_head"
+  ]
+}
