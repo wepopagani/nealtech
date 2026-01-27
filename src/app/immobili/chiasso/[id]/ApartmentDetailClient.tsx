@@ -208,21 +208,15 @@ export default function ApartmentDetailClient({ apartment }: { apartment: Apartm
             </div>
 
             <div className="bg-white rounded-2xl shadow-lg p-6">
-              <h2 className="text-2xl font-bold text-[#0d2644] mb-4">Cosa è incluso</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <h3 className="font-semibold text-[#0d2644] mb-3">Incluso nel prezzo</h3>
-                  <ul className="space-y-2">
-                    {apartment.included.map((item, i) => <li key={i} className="text-[#64748b] flex items-center"><span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>{item}</li>)}
-                  </ul>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-[#0d2644] mb-3">Non incluso</h3>
-                  <ul className="space-y-2">
-                    {apartment.notIncluded.map((item, i) => <li key={i} className="text-[#64748b] flex items-center"><span className="w-2 h-2 bg-orange-500 rounded-full mr-3"></span>{item}</li>)}
-                  </ul>
-                </div>
-              </div>
+              <h2 className="text-2xl font-bold text-[#0d2644] mb-4">Incluso</h2>
+              <ul className="space-y-2">
+                {apartment.included.map((item, i) => (
+                  <li key={i} className="text-[#64748b] flex items-center">
+                    <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
             </div>
 
             <div className="bg-white rounded-2xl shadow-lg p-6">
@@ -249,9 +243,9 @@ export default function ApartmentDetailClient({ apartment }: { apartment: Apartm
 
               <div className="bg-[#0d2644] rounded-2xl p-6 text-white">
                 <h3 className="font-bold mb-4">Preferisci chiamare?</h3>
-                <a href="tel:+41787219613" className="flex items-center gap-3 bg-white/10 hover:bg-white/20 p-4 rounded-lg transition-colors">
+                <a href="tel:+41789191375" className="flex items-center gap-3 bg-white/10 hover:bg-white/20 p-4 rounded-lg transition-colors">
                   <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                  <span className="font-semibold">+41 78 721 96 13</span>
+                  <span className="font-semibold">+41 78 919 13 75</span>
                 </a>
                 <p className="text-sm text-gray-300 mt-3">Lun - Ven: 09:00 - 18:00<br />Sab: 10:00 - 14:00</p>
               </div>

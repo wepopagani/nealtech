@@ -33,20 +33,19 @@ const apartments = [
         sqm: 32,
         floor: "Primo Piano",
         availability: "Disponibile",
-        description: "Moderno appartamento con finiture di pregio e ottima luminosità.",
-        longDescription: `Splendido appartamento di nuova costruzione situato in una posizione strategica a Chiasso. 
-    
-L'immobile si distingue per le finiture di alta qualità e il design moderno che caratterizza ogni ambiente. L'ampio soggiorno con cucina a vista offre uno spazio conviviale e luminoso, ideale per momenti di relax e per ricevere ospiti.
+        description: "Appartamento completamente ristrutturato con cucina nuova e finiture moderne.",
+        longDescription: `Appartamento completamente ristrutturato al primo piano in posizione comoda a Chiasso.
 
-La camera da letto è stata progettata per garantire il massimo comfort, con ampie finestre che assicurano un'ottima illuminazione naturale. Il bagno è dotato di sanitari moderni e finiture eleganti.
+Gli ambienti sono stati rinnovati con sanitari nuovi e cucina nuova completamente attrezzata, pensata per un uso quotidiano pratico e moderno.
 
-La posizione dell'appartamento permette di raggiungere facilmente tutti i servizi principali: negozi, supermercati, scuole e mezzi pubblici sono a pochi passi.`,
+Il pavimento è in SPC, resistente e di facile manutenzione, gli infissi sono in ottimo stato e garantiscono un buon isolamento. Il riscaldamento non è a pavimento, ideale per chi preferisce impianti tradizionali.`,
         features: [
-            "Cucina moderna completamente attrezzata",
-            "Pavimenti in parquet",
-            "Infissi con doppi vetri",
-            "Riscaldamento a pavimento",
-            "Videocitofono"
+            "Appartamento completamente ristrutturato",
+            "Sanitari nuovi",
+            "Cucina nuova completamente attrezzata",
+            "Pavimento in SPC",
+            "Infissi in ottimo stato",
+            "Riscaldamento non a pavimento"
         ],
         included: [
             "Cucina attrezzata"
@@ -81,22 +80,19 @@ La posizione dell'appartamento permette di raggiungere facilmente tutti i serviz
         sqm: 37,
         floor: "Primo Piano",
         availability: "Venduto",
-        description: "Appartamento spazioso con ampio soggiorno e cucina moderna.",
-        longDescription: `Elegante appartamento al primo piano con layout ottimizzato per sfruttare al meglio ogni metro quadro.
+        description: "Appartamento completamente ristrutturato con cucina nuova e finiture moderne.",
+        longDescription: `Appartamento completamente ristrutturato al primo piano, ideale come investimento o pied-à-terre a Chiasso.
 
-Il soggiorno ampio e luminoso si apre su una cucina moderna completamente attrezzata, creando un ambiente open space perfetto per la vita quotidiana. Le grandi finestre garantiscono un'abbondante luce naturale durante tutto il giorno.
+Sono stati rifatti sanitari e bagno, la cucina è nuova e completamente attrezzata, con spazi ottimizzati per l'uso quotidiano.
 
-La camera da letto offre spazio confortevole e ben proporzionato, con armadio a muro integrato. Il bagno è rifinito con materiali di qualità e dotato di doccia spaziosa.
-
-La posizione centrale permette di raggiungere a piedi tutti i principali servizi della città.`,
+Il pavimento è in SPC, pratico e resistente, gli infissi sono in ottime condizioni e garantiscono comfort termico e acustico. Il riscaldamento non è a pavimento, ma con impianto tradizionale.`,
         features: [
-            "Open space soggiorno-cucina",
-            "Cucina con isola",
-            "Armadi a muro",
-            "Bagno con doccia walk-in",
-            "Balcone",
-            "Riscaldamento a pavimento",
-            "Tapparelle elettriche"
+            "Appartamento completamente ristrutturato",
+            "Sanitari nuovi",
+            "Cucina nuova completamente attrezzata",
+            "Pavimento in SPC",
+            "Infissi in ottimo stato",
+            "Riscaldamento non a pavimento"
         ],
         included: [
             "Cucina attrezzata"
@@ -131,20 +127,19 @@ La posizione centrale permette di raggiungere a piedi tutti i principali servizi
         sqm: 64,
         floor: "Primo Piano",
         availability: "Disponibile",
-        description: "Elegante bilocale con ampi spazi e finiture di pregio.",
-        longDescription: `Prestigioso appartamento bilocale che offre spazi generosi e finiture di alto livello.
+        description: "Bilocale completamente ristrutturato con cucina nuova e pavimento in SPC.",
+        longDescription: `Bilocale al primo piano completamente ristrutturato, con spazi ben organizzati e ambienti luminosi.
 
-L'ampio soggiorno con zona pranzo è perfetto per godersi momenti di relax. La cucina separata è completamente attrezzata con elettrodomestici di ultima generazione.
+La zona giorno è stata rinnovata con cucina nuova completamente attrezzata, mentre il bagno dispone di sanitari nuovi e finiture moderne.
 
-Le due camere da letto sono di buone dimensioni, luminose e silenziose. Il bagno è rifinito con materiali di qualità.
-
-Ideale per coppie o piccole famiglie che cercano spazio e comfort in una posizione comoda.`,
+In tutto l'appartamento è stato posato pavimento in SPC, gli infissi sono in ottimo stato e il riscaldamento non è a pavimento, per chi preferisce soluzioni tradizionali.`,
         features: [
-            "Due camere da letto",
-            "Cucina separata con dispensa",
-            "Parquet in rovere",
-            "Riscaldamento a pavimento",
-            "Infissi con doppi vetri"
+            "Appartamento completamente ristrutturato",
+            "Sanitari nuovi",
+            "Cucina nuova completamente attrezzata",
+            "Pavimento in SPC",
+            "Infissi in ottimo stato",
+            "Riscaldamento non a pavimento"
         ],
         included: [
             "Cucina attrezzata"
@@ -177,19 +172,19 @@ Ideale per coppie o piccole famiglie che cercano spazio e comfort in una posizio
         sqm: 30,
         floor: "Primo Piano",
         availability: "Venduto",
-        description: "Appartamento accogliente con layout funzionale e ben organizzato.",
-        longDescription: `Appartamento compatto ma ben organizzato, ideale per single o giovani professionisti.
+        description: "Monolocale completamente ristrutturato con sanitari e cucina nuovi.",
+        longDescription: `Monolocale al primo piano completamente ristrutturato, ideale per single o come investimento.
 
-Gli spazi sono stati progettati con intelligenza per ottimizzare ogni ambiente. Il soggiorno con angolo cottura è luminoso e accogliente.
+Sono stati rifatti completamente bagno e sanitari, la cucina è nuova e completamente attrezzata, con soluzione compatta ma funzionale.
 
-La camera da letto è confortevole e silenziosa. Il bagno è moderno e funzionale.
-
-Posizione comoda con tutti i servizi a portata di mano.`,
+Il pavimento è in SPC, molto resistente e facile da pulire, gli infissi sono in ottimo stato e il riscaldamento non è a pavimento.`,
         features: [
-            "Angolo cottura moderno",
-            "Ripostiglio",
-            "Riscaldamento a pavimento",
-            "Infissi nuovi"
+            "Appartamento completamente ristrutturato",
+            "Sanitari nuovi",
+            "Cucina nuova completamente attrezzata",
+            "Pavimento in SPC",
+            "Infissi in ottimo stato",
+            "Riscaldamento non a pavimento"
         ],
         included: [
             "Cucina attrezzata"
@@ -222,20 +217,19 @@ Posizione comoda con tutti i servizi a portata di mano.`,
         sqm: 30,
         floor: "Primo Piano",
         availability: "Venduto",
-        description: "Monolocale luminoso con finiture moderne e ottima esposizione.",
-        longDescription: `Luminoso monolocale con esposizione che garantisce luce naturale durante tutta la giornata.
+        description: "Monolocale completamente ristrutturato con cucina nuova e pavimento in SPC.",
+        longDescription: `Monolocale al primo piano completamente ristrutturato, pensato per offrire comfort in uno spazio contenuto.
 
-Il design degli interni è contemporaneo e funzionale. Il soggiorno spazioso include una zona pranzo e si collega alla cucina semi-aperta attraverso un elegante bancone.
+La cucina è nuova e completamente attrezzata, il bagno è stato rifatto con sanitari nuovi e finiture attuali.
 
-La zona notte è ben dimensionata e silenziosa. Il bagno è dotato di finestra, una caratteristica apprezzata per la ventilazione naturale.
-
-Perfetto per giovani professionisti o come investimento.`,
+Il pavimento è in SPC in tutto l'appartamento, gli infissi sono in ottimo stato e il riscaldamento non è a pavimento.`,
         features: [
-            "Ottima luminosità",
-            "Cucina semi-aperta con bancone",
-            "Bagno con finestra",
-            "Parquet in tutto l'appartamento",
-            "Predisposizione climatizzazione"
+            "Appartamento completamente ristrutturato",
+            "Sanitari nuovi",
+            "Cucina nuova completamente attrezzata",
+            "Pavimento in SPC",
+            "Infissi in ottimo stato",
+            "Riscaldamento non a pavimento"
         ],
         included: [
             "Cucina attrezzata"
@@ -270,20 +264,19 @@ Perfetto per giovani professionisti o come investimento.`,
         sqm: 64.5,
         floor: "Primo Piano",
         availability: "Disponibile",
-        description: "Ampio bilocale con ottima metratura, perfetto per coppie o piccole famiglie.",
-        longDescription: `Spazioso appartamento bilocale che rappresenta la soluzione ideale per chi cerca comfort e qualità.
+        description: "Bilocale completamente ristrutturato con cucina nuova e pavimento in SPC.",
+        longDescription: `Bilocale al primo piano completamente ristrutturato, con metratura generosa e ambienti ben distribuiti.
 
-Il grande soggiorno è luminoso e ben proporzionato. La cucina è completamente separata e offre abbondante spazio per cucinare e conservare.
+La cucina è nuova e completamente attrezzata, il bagno è stato rinnovato con sanitari nuovi e rivestimenti moderni.
 
-La zona notte comprende due camere da letto ben dimensionate, luminose e silenziose. Il bagno è rifinito con materiali di qualità.
-
-Le finiture sono di alto livello: parquet in rovere, infissi in legno-alluminio.`,
+In tutto l'appartamento è presente pavimento in SPC, gli infissi sono in ottimo stato e il riscaldamento non è a pavimento.`,
         features: [
-            "Due camere da letto",
-            "Cucina separata",
-            "Parquet in rovere",
-            "Infissi legno-alluminio",
-            "Riscaldamento a pavimento"
+            "Appartamento completamente ristrutturato",
+            "Sanitari nuovi",
+            "Cucina nuova completamente attrezzata",
+            "Pavimento in SPC",
+            "Infissi in ottimo stato",
+            "Riscaldamento non a pavimento"
         ],
         included: [
             "Cucina attrezzata"
@@ -317,21 +310,19 @@ Le finiture sono di alto livello: parquet in rovere, infissi in legno-alluminio.
         sqm: 58,
         floor: "Primo Piano",
         availability: "Disponibile",
-        description: "Appartamento di design con cucina open space e ambienti luminosi.",
-        longDescription: `Appartamento con caratteristiche uniche e design contemporaneo.
+        description: "Bilocale completamente ristrutturato con cucina open space e pavimento in SPC.",
+        longDescription: `Bilocale al primo piano completamente ristrutturato, con zona giorno open space e finiture moderne.
 
-Gli ambienti sono stati progettati per massimizzare la luce e la sensazione di spazio. Il soggiorno open space con cucina a vista presenta ampie vetrate che inondano gli ambienti di luce naturale.
+Gli interventi hanno riguardato sanitari e bagno completamente nuovi, oltre a una cucina nuova e completamente attrezzata inserita in un soggiorno luminoso.
 
-Le due camere da letto sono oasi di tranquillità, isolate acusticamente. Il bagno è un piccolo gioiello di design con doccia a pioggia e finiture di qualità.
-
-Ottimo rapporto qualità-prezzo per chi cerca un bilocale moderno.`,
+Il pavimento è in SPC, molto resistente e di facile gestione, gli infissi sono in ottimo stato e il riscaldamento non è a pavimento.`,
         features: [
-            "Design contemporaneo",
-            "Open space luminoso",
-            "Doccia a pioggia",
-            "Finiture di qualità",
-            "Illuminazione LED integrata",
-            "Predisposizione climatizzazione"
+            "Appartamento completamente ristrutturato",
+            "Sanitari nuovi",
+            "Cucina nuova completamente attrezzata",
+            "Pavimento in SPC",
+            "Infissi in ottimo stato",
+            "Riscaldamento non a pavimento"
         ],
         included: [
             "Cucina attrezzata"
@@ -1349,97 +1340,32 @@ function ApartmentDetailClient({ apartment }) {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                                 className: "text-2xl font-bold text-[#0d2644] mb-4",
-                                                children: "Cosa è incluso"
+                                                children: "Incluso"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
                                                 lineNumber: 211,
                                                 columnNumber: 15
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "grid grid-cols-1 md:grid-cols-2 gap-6",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                                className: "space-y-2",
+                                                children: apartment.included.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        className: "text-[#64748b] flex items-center",
                                                         children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                className: "font-semibold text-[#0d2644] mb-3",
-                                                                children: "Incluso nel prezzo"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                                lineNumber: 214,
-                                                                columnNumber: 19
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                                className: "space-y-2",
-                                                                children: apartment.included.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                        className: "text-[#64748b] flex items-center",
-                                                                        children: [
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                className: "w-2 h-2 bg-green-500 rounded-full mr-3"
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                                                lineNumber: 216,
-                                                                                columnNumber: 115
-                                                                            }, this),
-                                                                            item
-                                                                        ]
-                                                                    }, i, true, {
-                                                                        fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                                        lineNumber: 216,
-                                                                        columnNumber: 58
-                                                                    }, this))
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "w-2 h-2 bg-green-500 rounded-full mr-3"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
                                                                 lineNumber: 215,
-                                                                columnNumber: 19
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                        lineNumber: 213,
-                                                        columnNumber: 17
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                className: "font-semibold text-[#0d2644] mb-3",
-                                                                children: "Non incluso"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                                lineNumber: 220,
-                                                                columnNumber: 19
+                                                                columnNumber: 21
                                                             }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                                className: "space-y-2",
-                                                                children: apartment.notIncluded.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                        className: "text-[#64748b] flex items-center",
-                                                                        children: [
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                className: "w-2 h-2 bg-orange-500 rounded-full mr-3"
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                                                lineNumber: 222,
-                                                                                columnNumber: 118
-                                                                            }, this),
-                                                                            item
-                                                                        ]
-                                                                    }, i, true, {
-                                                                        fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                                        lineNumber: 222,
-                                                                        columnNumber: 61
-                                                                    }, this))
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                                lineNumber: 221,
-                                                                columnNumber: 19
-                                                            }, this)
+                                                            item
                                                         ]
-                                                    }, void 0, true, {
+                                                    }, i, true, {
                                                         fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                        lineNumber: 219,
-                                                        columnNumber: 17
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
+                                                        lineNumber: 214,
+                                                        columnNumber: 19
+                                                    }, this))
+                                            }, void 0, false, {
                                                 fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
                                                 lineNumber: 212,
                                                 columnNumber: 15
@@ -1458,7 +1384,7 @@ function ApartmentDetailClient({ apartment }) {
                                                 children: "Piante"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                lineNumber: 229,
+                                                lineNumber: 223,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1481,19 +1407,19 @@ function ApartmentDetailClient({ apartment }) {
                                                                     d: "M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                                    lineNumber: 232,
+                                                                    lineNumber: 226,
                                                                     columnNumber: 98
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                                lineNumber: 232,
+                                                                lineNumber: 226,
                                                                 columnNumber: 19
                                                             }, this),
                                                             "Pianta Letti Aperti"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                        lineNumber: 231,
+                                                        lineNumber: 225,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1513,31 +1439,31 @@ function ApartmentDetailClient({ apartment }) {
                                                                     d: "M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                                    lineNumber: 236,
+                                                                    lineNumber: 230,
                                                                     columnNumber: 98
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                                lineNumber: 236,
+                                                                lineNumber: 230,
                                                                 columnNumber: 19
                                                             }, this),
                                                             "Pianta Letti Chiusi"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                        lineNumber: 235,
+                                                        lineNumber: 229,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                lineNumber: 230,
+                                                lineNumber: 224,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                        lineNumber: 228,
+                                        lineNumber: 222,
                                         columnNumber: 13
                                     }, this)
                                 ]
@@ -1559,20 +1485,20 @@ function ApartmentDetailClient({ apartment }) {
                                                     children: "Richiedi Informazioni"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                    lineNumber: 246,
+                                                    lineNumber: 240,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ContactForm, {
                                                     apartmentTitle: apartment.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                    lineNumber: 247,
+                                                    lineNumber: 241,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                            lineNumber: 245,
+                                            lineNumber: 239,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1583,11 +1509,11 @@ function ApartmentDetailClient({ apartment }) {
                                                     children: "Preferisci chiamare?"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                    lineNumber: 251,
+                                                    lineNumber: 245,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                    href: "tel:+41787219613",
+                                                    href: "tel:+41789191375",
                                                     className: "flex items-center gap-3 bg-white/10 hover:bg-white/20 p-4 rounded-lg transition-colors",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1602,26 +1528,26 @@ function ApartmentDetailClient({ apartment }) {
                                                                 d: "M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                                lineNumber: 253,
+                                                                lineNumber: 247,
                                                                 columnNumber: 98
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                            lineNumber: 253,
+                                                            lineNumber: 247,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "font-semibold",
-                                                            children: "+41 78 721 96 13"
+                                                            children: "+41 78 919 13 75"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                            lineNumber: 254,
+                                                            lineNumber: 248,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                    lineNumber: 252,
+                                                    lineNumber: 246,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1630,20 +1556,20 @@ function ApartmentDetailClient({ apartment }) {
                                                         "Lun - Ven: 09:00 - 18:00",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                             fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                            lineNumber: 256,
+                                                            lineNumber: 250,
                                                             columnNumber: 83
                                                         }, this),
                                                         "Sab: 10:00 - 14:00"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                    lineNumber: 256,
+                                                    lineNumber: 250,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                            lineNumber: 250,
+                                            lineNumber: 244,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1654,7 +1580,7 @@ function ApartmentDetailClient({ apartment }) {
                                                     children: "Altri Appartamenti"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                    lineNumber: 260,
+                                                    lineNumber: 254,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1672,12 +1598,12 @@ function ApartmentDetailClient({ apartment }) {
                                                                         className: "object-cover"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                                        lineNumber: 265,
+                                                                        lineNumber: 259,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                                    lineNumber: 264,
+                                                                    lineNumber: 258,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1687,7 +1613,7 @@ function ApartmentDetailClient({ apartment }) {
                                                                             children: apt.title
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                                            lineNumber: 268,
+                                                                            lineNumber: 262,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1695,24 +1621,24 @@ function ApartmentDetailClient({ apartment }) {
                                                                             children: apt.price
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                                            lineNumber: 269,
+                                                                            lineNumber: 263,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                                    lineNumber: 267,
+                                                                    lineNumber: 261,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, apt.id, true, {
                                                             fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                            lineNumber: 263,
+                                                            lineNumber: 257,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                    lineNumber: 261,
+                                                    lineNumber: 255,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1721,24 +1647,24 @@ function ApartmentDetailClient({ apartment }) {
                                                     children: "Vedi tutti →"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                                    lineNumber: 274,
+                                                    lineNumber: 268,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                            lineNumber: 259,
+                                            lineNumber: 253,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                    lineNumber: 244,
+                                    lineNumber: 238,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                                lineNumber: 243,
+                                lineNumber: 237,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -1762,7 +1688,7 @@ function ApartmentDetailClient({ apartment }) {
                 title: apartment.title
             }, void 0, false, {
                 fileName: "[project]/src/app/immobili/chiasso/[id]/ApartmentDetailClient.tsx",
-                lineNumber: 281,
+                lineNumber: 275,
                 columnNumber: 7
             }, this)
         ]

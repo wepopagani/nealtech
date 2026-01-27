@@ -123,7 +123,7 @@ export default function Contatti() {
                         value={formData.telefono}
                         onChange={handleChange}
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#38bdf8] focus:border-transparent transition-all duration-200"
-                        placeholder="+41 78 721 96 13"
+                        placeholder="+41 78 919 13 75"
                       />
                     </div>
                   </div>
@@ -215,7 +215,7 @@ export default function Contatti() {
                       <h3 className="text-lg font-semibold text-[#0d2644]">Telefono</h3>
                       <p className="text-[#64748b] mt-1">
                         <a href="tel:+41911234567" className="hover:text-[#1e6bb8] transition-colors">
-                          +41 78 721 96 13
+                          +41 78 919 13 75
                         </a>
                       </p>
                     </div>

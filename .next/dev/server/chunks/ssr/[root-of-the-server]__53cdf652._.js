@@ -756,7 +756,7 @@ function Home() {
                                             lineNumber: 260,
                                             columnNumber: 15
                                         }, this),
-                                        "+41 78 721 96 13"
+                                        "+41 78 919 13 75"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/page.tsx",

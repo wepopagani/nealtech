@@ -33,20 +33,19 @@ const apartments = [
         sqm: 32,
         floor: "Primo Piano",
         availability: "Disponibile",
-        description: "Moderno appartamento con finiture di pregio e ottima luminosità.",
-        longDescription: `Splendido appartamento di nuova costruzione situato in una posizione strategica a Chiasso. 
-    
-L'immobile si distingue per le finiture di alta qualità e il design moderno che caratterizza ogni ambiente. L'ampio soggiorno con cucina a vista offre uno spazio conviviale e luminoso, ideale per momenti di relax e per ricevere ospiti.
+        description: "Appartamento completamente ristrutturato con cucina nuova e finiture moderne.",
+        longDescription: `Appartamento completamente ristrutturato al primo piano in posizione comoda a Chiasso.
 
-La camera da letto è stata progettata per garantire il massimo comfort, con ampie finestre che assicurano un'ottima illuminazione naturale. Il bagno è dotato di sanitari moderni e finiture eleganti.
+Gli ambienti sono stati rinnovati con sanitari nuovi e cucina nuova completamente attrezzata, pensata per un uso quotidiano pratico e moderno.
 
-La posizione dell'appartamento permette di raggiungere facilmente tutti i servizi principali: negozi, supermercati, scuole e mezzi pubblici sono a pochi passi.`,
+Il pavimento è in SPC, resistente e di facile manutenzione, gli infissi sono in ottimo stato e garantiscono un buon isolamento. Il riscaldamento non è a pavimento, ideale per chi preferisce impianti tradizionali.`,
         features: [
-            "Cucina moderna completamente attrezzata",
-            "Pavimenti in parquet",
-            "Infissi con doppi vetri",
-            "Riscaldamento a pavimento",
-            "Videocitofono"
+            "Appartamento completamente ristrutturato",
+            "Sanitari nuovi",
+            "Cucina nuova completamente attrezzata",
+            "Pavimento in SPC",
+            "Infissi in ottimo stato",
+            "Riscaldamento non a pavimento"
         ],
         included: [
             "Cucina attrezzata"
@@ -81,22 +80,19 @@ La posizione dell'appartamento permette di raggiungere facilmente tutti i serviz
         sqm: 37,
         floor: "Primo Piano",
         availability: "Venduto",
-        description: "Appartamento spazioso con ampio soggiorno e cucina moderna.",
-        longDescription: `Elegante appartamento al primo piano con layout ottimizzato per sfruttare al meglio ogni metro quadro.
+        description: "Appartamento completamente ristrutturato con cucina nuova e finiture moderne.",
+        longDescription: `Appartamento completamente ristrutturato al primo piano, ideale come investimento o pied-à-terre a Chiasso.
 
-Il soggiorno ampio e luminoso si apre su una cucina moderna completamente attrezzata, creando un ambiente open space perfetto per la vita quotidiana. Le grandi finestre garantiscono un'abbondante luce naturale durante tutto il giorno.
+Sono stati rifatti sanitari e bagno, la cucina è nuova e completamente attrezzata, con spazi ottimizzati per l'uso quotidiano.
 
-La camera da letto offre spazio confortevole e ben proporzionato, con armadio a muro integrato. Il bagno è rifinito con materiali di qualità e dotato di doccia spaziosa.
-
-La posizione centrale permette di raggiungere a piedi tutti i principali servizi della città.`,
+Il pavimento è in SPC, pratico e resistente, gli infissi sono in ottime condizioni e garantiscono comfort termico e acustico. Il riscaldamento non è a pavimento, ma con impianto tradizionale.`,
         features: [
-            "Open space soggiorno-cucina",
-            "Cucina con isola",
-            "Armadi a muro",
-            "Bagno con doccia walk-in",
-            "Balcone",
-            "Riscaldamento a pavimento",
-            "Tapparelle elettriche"
+            "Appartamento completamente ristrutturato",
+            "Sanitari nuovi",
+            "Cucina nuova completamente attrezzata",
+            "Pavimento in SPC",
+            "Infissi in ottimo stato",
+            "Riscaldamento non a pavimento"
         ],
         included: [
             "Cucina attrezzata"
@@ -131,20 +127,19 @@ La posizione centrale permette di raggiungere a piedi tutti i principali servizi
         sqm: 64,
         floor: "Primo Piano",
         availability: "Disponibile",
-        description: "Elegante bilocale con ampi spazi e finiture di pregio.",
-        longDescription: `Prestigioso appartamento bilocale che offre spazi generosi e finiture di alto livello.
+        description: "Bilocale completamente ristrutturato con cucina nuova e pavimento in SPC.",
+        longDescription: `Bilocale al primo piano completamente ristrutturato, con spazi ben organizzati e ambienti luminosi.
 
-L'ampio soggiorno con zona pranzo è perfetto per godersi momenti di relax. La cucina separata è completamente attrezzata con elettrodomestici di ultima generazione.
+La zona giorno è stata rinnovata con cucina nuova completamente attrezzata, mentre il bagno dispone di sanitari nuovi e finiture moderne.
 
-Le due camere da letto sono di buone dimensioni, luminose e silenziose. Il bagno è rifinito con materiali di qualità.
-
-Ideale per coppie o piccole famiglie che cercano spazio e comfort in una posizione comoda.`,
+In tutto l'appartamento è stato posato pavimento in SPC, gli infissi sono in ottimo stato e il riscaldamento non è a pavimento, per chi preferisce soluzioni tradizionali.`,
         features: [
-            "Due camere da letto",
-            "Cucina separata con dispensa",
-            "Parquet in rovere",
-            "Riscaldamento a pavimento",
-            "Infissi con doppi vetri"
+            "Appartamento completamente ristrutturato",
+            "Sanitari nuovi",
+            "Cucina nuova completamente attrezzata",
+            "Pavimento in SPC",
+            "Infissi in ottimo stato",
+            "Riscaldamento non a pavimento"
         ],
         included: [
             "Cucina attrezzata"
@@ -177,19 +172,19 @@ Ideale per coppie o piccole famiglie che cercano spazio e comfort in una posizio
         sqm: 30,
         floor: "Primo Piano",
         availability: "Venduto",
-        description: "Appartamento accogliente con layout funzionale e ben organizzato.",
-        longDescription: `Appartamento compatto ma ben organizzato, ideale per single o giovani professionisti.
+        description: "Monolocale completamente ristrutturato con sanitari e cucina nuovi.",
+        longDescription: `Monolocale al primo piano completamente ristrutturato, ideale per single o come investimento.
 
-Gli spazi sono stati progettati con intelligenza per ottimizzare ogni ambiente. Il soggiorno con angolo cottura è luminoso e accogliente.
+Sono stati rifatti completamente bagno e sanitari, la cucina è nuova e completamente attrezzata, con soluzione compatta ma funzionale.
 
-La camera da letto è confortevole e silenziosa. Il bagno è moderno e funzionale.
-
-Posizione comoda con tutti i servizi a portata di mano.`,
+Il pavimento è in SPC, molto resistente e facile da pulire, gli infissi sono in ottimo stato e il riscaldamento non è a pavimento.`,
         features: [
-            "Angolo cottura moderno",
-            "Ripostiglio",
-            "Riscaldamento a pavimento",
-            "Infissi nuovi"
+            "Appartamento completamente ristrutturato",
+            "Sanitari nuovi",
+            "Cucina nuova completamente attrezzata",
+            "Pavimento in SPC",
+            "Infissi in ottimo stato",
+            "Riscaldamento non a pavimento"
         ],
         included: [
             "Cucina attrezzata"
@@ -222,20 +217,19 @@ Posizione comoda con tutti i servizi a portata di mano.`,
         sqm: 30,
         floor: "Primo Piano",
         availability: "Venduto",
-        description: "Monolocale luminoso con finiture moderne e ottima esposizione.",
-        longDescription: `Luminoso monolocale con esposizione che garantisce luce naturale durante tutta la giornata.
+        description: "Monolocale completamente ristrutturato con cucina nuova e pavimento in SPC.",
+        longDescription: `Monolocale al primo piano completamente ristrutturato, pensato per offrire comfort in uno spazio contenuto.
 
-Il design degli interni è contemporaneo e funzionale. Il soggiorno spazioso include una zona pranzo e si collega alla cucina semi-aperta attraverso un elegante bancone.
+La cucina è nuova e completamente attrezzata, il bagno è stato rifatto con sanitari nuovi e finiture attuali.
 
-La zona notte è ben dimensionata e silenziosa. Il bagno è dotato di finestra, una caratteristica apprezzata per la ventilazione naturale.
-
-Perfetto per giovani professionisti o come investimento.`,
+Il pavimento è in SPC in tutto l'appartamento, gli infissi sono in ottimo stato e il riscaldamento non è a pavimento.`,
         features: [
-            "Ottima luminosità",
-            "Cucina semi-aperta con bancone",
-            "Bagno con finestra",
-            "Parquet in tutto l'appartamento",
-            "Predisposizione climatizzazione"
+            "Appartamento completamente ristrutturato",
+            "Sanitari nuovi",
+            "Cucina nuova completamente attrezzata",
+            "Pavimento in SPC",
+            "Infissi in ottimo stato",
+            "Riscaldamento non a pavimento"
         ],
         included: [
             "Cucina attrezzata"
@@ -270,20 +264,19 @@ Perfetto per giovani professionisti o come investimento.`,
         sqm: 64.5,
         floor: "Primo Piano",
         availability: "Disponibile",
-        description: "Ampio bilocale con ottima metratura, perfetto per coppie o piccole famiglie.",
-        longDescription: `Spazioso appartamento bilocale che rappresenta la soluzione ideale per chi cerca comfort e qualità.
+        description: "Bilocale completamente ristrutturato con cucina nuova e pavimento in SPC.",
+        longDescription: `Bilocale al primo piano completamente ristrutturato, con metratura generosa e ambienti ben distribuiti.
 
-Il grande soggiorno è luminoso e ben proporzionato. La cucina è completamente separata e offre abbondante spazio per cucinare e conservare.
+La cucina è nuova e completamente attrezzata, il bagno è stato rinnovato con sanitari nuovi e rivestimenti moderni.
 
-La zona notte comprende due camere da letto ben dimensionate, luminose e silenziose. Il bagno è rifinito con materiali di qualità.
-
-Le finiture sono di alto livello: parquet in rovere, infissi in legno-alluminio.`,
+In tutto l'appartamento è presente pavimento in SPC, gli infissi sono in ottimo stato e il riscaldamento non è a pavimento.`,
         features: [
-            "Due camere da letto",
-            "Cucina separata",
-            "Parquet in rovere",
-            "Infissi legno-alluminio",
-            "Riscaldamento a pavimento"
+            "Appartamento completamente ristrutturato",
+            "Sanitari nuovi",
+            "Cucina nuova completamente attrezzata",
+            "Pavimento in SPC",
+            "Infissi in ottimo stato",
+            "Riscaldamento non a pavimento"
         ],
         included: [
             "Cucina attrezzata"
@@ -317,21 +310,19 @@ Le finiture sono di alto livello: parquet in rovere, infissi in legno-alluminio.
         sqm: 58,
         floor: "Primo Piano",
         availability: "Disponibile",
-        description: "Appartamento di design con cucina open space e ambienti luminosi.",
-        longDescription: `Appartamento con caratteristiche uniche e design contemporaneo.
+        description: "Bilocale completamente ristrutturato con cucina open space e pavimento in SPC.",
+        longDescription: `Bilocale al primo piano completamente ristrutturato, con zona giorno open space e finiture moderne.
 
-Gli ambienti sono stati progettati per massimizzare la luce e la sensazione di spazio. Il soggiorno open space con cucina a vista presenta ampie vetrate che inondano gli ambienti di luce naturale.
+Gli interventi hanno riguardato sanitari e bagno completamente nuovi, oltre a una cucina nuova e completamente attrezzata inserita in un soggiorno luminoso.
 
-Le due camere da letto sono oasi di tranquillità, isolate acusticamente. Il bagno è un piccolo gioiello di design con doccia a pioggia e finiture di qualità.
-
-Ottimo rapporto qualità-prezzo per chi cerca un bilocale moderno.`,
+Il pavimento è in SPC, molto resistente e di facile gestione, gli infissi sono in ottimo stato e il riscaldamento non è a pavimento.`,
         features: [
-            "Design contemporaneo",
-            "Open space luminoso",
-            "Doccia a pioggia",
-            "Finiture di qualità",
-            "Illuminazione LED integrata",
-            "Predisposizione climatizzazione"
+            "Appartamento completamente ristrutturato",
+            "Sanitari nuovi",
+            "Cucina nuova completamente attrezzata",
+            "Pavimento in SPC",
+            "Infissi in ottimo stato",
+            "Riscaldamento non a pavimento"
         ],
         included: [
             "Cucina attrezzata"
