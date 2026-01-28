@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/immobili/chiasso/A":{},"/immobili/chiasso/B":{},"/immobili/chiasso/C":{},"/immobili/chiasso/D":{},"/immobili/chiasso/E":{},"/immobili/chiasso/F":{},"/immobili/chiasso/G":{}},"dynamicRoutes":{"/immobili/chiasso/[id]":{"dataRoute":null,"dataRouteRegex":null,"fallback":false,"fallbackRevalidate":false,"fallbackSourceRoute":"/immobili/chiasso/[id]","routeRegex":"^\\/immobili\\/chiasso\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"f8fb26dcc4703d8e617549111b2118ea","previewModeSigningKey":"a8f6a18ad77da36d4dac447904bda1ed1551fbd3a44f1e0a3d6c7be0d92caff6","previewModeEncryptionKey":"1cd25460d342e7c67813676285daccc204cf3d2aa10c5cb69fb923dfce55dacd"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "390f1ed7a459bc89dfc3d1538d7962aa",
+    "previewModeSigningKey": "234cebefba65f08477c3858f64dd71af756890e654dbd2f044e65fe3afae3259",
+    "previewModeEncryptionKey": "c1cf0b896be6faca40a001391a6d7062999d198db7b02db80b8034cc21a1c9d7"
+  }
+}

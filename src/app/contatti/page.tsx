@@ -8,7 +8,6 @@ export default function Contatti() {
     email: '',
     telefono: '',
     messaggio: '',
-    interesse: 'acquisto'
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -27,11 +26,10 @@ export default function Contatti() {
       email: '',
       telefono: '',
       messaggio: '',
-      interesse: 'acquisto'
     });
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
@@ -126,25 +124,6 @@ export default function Contatti() {
                         placeholder="+41 78 919 13 75"
                       />
                     </div>
-                  </div>
-
-                  <div>
-                    <label htmlFor="interesse" className="block text-sm font-medium text-[#0d2644] mb-2">
-                      Sono interessato a
-                    </label>
-                    <select
-                      id="interesse"
-                      name="interesse"
-                      value={formData.interesse}
-                      onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#38bdf8] focus:border-transparent transition-all duration-200"
-                    >
-                      <option value="acquisto">Acquistare un immobile</option>
-                      <option value="vendita">Vendere un immobile</option>
-                      <option value="affitto">Affittare un immobile</option>
-                      <option value="valutazione">Valutazione immobiliare</option>
-                      <option value="altro">Altro</option>
-                    </select>
                   </div>
 
                   <div>

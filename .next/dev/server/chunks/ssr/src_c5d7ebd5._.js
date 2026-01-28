@@ -45,7 +45,9 @@ Il pavimento è in SPC, resistente e di facile manutenzione, gli infissi sono in
             "Cucina nuova completamente attrezzata",
             "Pavimento in SPC",
             "Infissi in ottimo stato",
-            "Riscaldamento non a pavimento"
+            "Riscaldamento non a pavimento",
+            "WC con funzione bidet",
+            "Termosifoni in ogni stanza"
         ],
         included: [
             "Cucina attrezzata"
@@ -92,7 +94,9 @@ Il pavimento è in SPC, pratico e resistente, gli infissi sono in ottime condizi
             "Cucina nuova completamente attrezzata",
             "Pavimento in SPC",
             "Infissi in ottimo stato",
-            "Riscaldamento non a pavimento"
+            "Riscaldamento non a pavimento",
+            "WC con funzione bidet",
+            "Termosifoni in ogni stanza"
         ],
         included: [
             "Cucina attrezzata"
@@ -139,7 +143,9 @@ In tutto l'appartamento è stato posato pavimento in SPC, gli infissi sono in ot
             "Cucina nuova completamente attrezzata",
             "Pavimento in SPC",
             "Infissi in ottimo stato",
-            "Riscaldamento non a pavimento"
+            "Riscaldamento non a pavimento",
+            "WC con funzione bidet",
+            "Termosifoni in ogni stanza"
         ],
         included: [
             "Cucina attrezzata"
@@ -156,8 +162,8 @@ In tutto l'appartamento è stato posato pavimento in SPC, gli infissi sono in ot
         title: "Appartamento D",
         address: "Via Example 1",
         city: "Chiasso",
-        price: "VENDUTO",
-        priceNumeric: 0,
+        price: "CHF 205'000",
+        priceNumeric: 205000,
         type: "Vendita",
         images: [
             "/images/RENDER REV_1/APPARTAMENTO D/1.png",
@@ -171,7 +177,7 @@ In tutto l'appartamento è stato posato pavimento in SPC, gli infissi sono in ot
         baths: 1,
         sqm: 30,
         floor: "Primo Piano",
-        availability: "Venduto",
+        availability: "Disponibile",
         description: "Monolocale completamente ristrutturato con sanitari e cucina nuovi.",
         longDescription: `Monolocale al primo piano completamente ristrutturato, ideale per single o come investimento.
 
@@ -184,7 +190,9 @@ Il pavimento è in SPC, molto resistente e facile da pulire, gli infissi sono in
             "Cucina nuova completamente attrezzata",
             "Pavimento in SPC",
             "Infissi in ottimo stato",
-            "Riscaldamento non a pavimento"
+            "Riscaldamento non a pavimento",
+            "WC con funzione bidet",
+            "Termosifoni in ogni stanza"
         ],
         included: [
             "Cucina attrezzata"
@@ -201,8 +209,8 @@ Il pavimento è in SPC, molto resistente e facile da pulire, gli infissi sono in
         title: "Appartamento E",
         address: "Via Example 1",
         city: "Chiasso",
-        price: "VENDUTO",
-        priceNumeric: 0,
+        price: "CHF 205'000",
+        priceNumeric: 205000,
         type: "Vendita",
         images: [
             "/images/RENDER REV_1/APPARTAMENTO E/1.png",
@@ -216,7 +224,7 @@ Il pavimento è in SPC, molto resistente e facile da pulire, gli infissi sono in
         baths: 1,
         sqm: 30,
         floor: "Primo Piano",
-        availability: "Venduto",
+        availability: "Disponibile",
         description: "Monolocale completamente ristrutturato con cucina nuova e pavimento in SPC.",
         longDescription: `Monolocale al primo piano completamente ristrutturato, pensato per offrire comfort in uno spazio contenuto.
 
@@ -229,7 +237,9 @@ Il pavimento è in SPC in tutto l'appartamento, gli infissi sono in ottimo stato
             "Cucina nuova completamente attrezzata",
             "Pavimento in SPC",
             "Infissi in ottimo stato",
-            "Riscaldamento non a pavimento"
+            "Riscaldamento non a pavimento",
+            "WC con funzione bidet",
+            "Termosifoni in ogni stanza"
         ],
         included: [
             "Cucina attrezzata"
@@ -276,7 +286,9 @@ In tutto l'appartamento è presente pavimento in SPC, gli infissi sono in ottimo
             "Cucina nuova completamente attrezzata",
             "Pavimento in SPC",
             "Infissi in ottimo stato",
-            "Riscaldamento non a pavimento"
+            "Riscaldamento non a pavimento",
+            "WC con funzione bidet",
+            "Termosifoni in ogni stanza"
         ],
         included: [
             "Cucina attrezzata"
@@ -322,7 +334,9 @@ Il pavimento è in SPC, molto resistente e di facile gestione, gli infissi sono 
             "Cucina nuova completamente attrezzata",
             "Pavimento in SPC",
             "Infissi in ottimo stato",
-            "Riscaldamento non a pavimento"
+            "Riscaldamento non a pavimento",
+            "WC con funzione bidet",
+            "Termosifoni in ogni stanza"
         ],
         included: [
             "Cucina attrezzata"
