@@ -39,7 +39,7 @@ const services = [
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
                 strokeWidth: 1.5,
-                d: "M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                d: "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
             }, void 0, false, {
                 fileName: "[project]/src/app/servizi/page.tsx",
                 lineNumber: 7,
@@ -48,37 +48,6 @@ const services = [
         }, void 0, false, {
             fileName: "[project]/src/app/servizi/page.tsx",
             lineNumber: 6,
-            columnNumber: 7
-        }, ("TURBOPACK compile-time value", void 0)),
-        title: "Vendita Immobili",
-        description: "Ti assistiamo nella vendita del tuo immobile con strategie di marketing personalizzate e una rete di acquirenti qualificati.",
-        features: [
-            "Valutazione professionale gratuita",
-            "Fotografie professionali e tour virtuali",
-            "Marketing su portali nazionali e internazionali",
-            "Gestione completa delle visite",
-            "Supporto nella negoziazione"
-        ]
-    },
-    {
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-            className: "w-16 h-16",
-            fill: "none",
-            viewBox: "0 0 24 24",
-            stroke: "currentColor",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                strokeLinecap: "round",
-                strokeLinejoin: "round",
-                strokeWidth: 1.5,
-                d: "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-            }, void 0, false, {
-                fileName: "[project]/src/app/servizi/page.tsx",
-                lineNumber: 23,
-                columnNumber: 9
-            }, ("TURBOPACK compile-time value", void 0))
-        }, void 0, false, {
-            fileName: "[project]/src/app/servizi/page.tsx",
-            lineNumber: 22,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0)),
         title: "Ricerca Immobili",
@@ -104,12 +73,12 @@ const services = [
                 d: "M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
             }, void 0, false, {
                 fileName: "[project]/src/app/servizi/page.tsx",
-                lineNumber: 39,
+                lineNumber: 23,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/src/app/servizi/page.tsx",
-            lineNumber: 38,
+            lineNumber: 22,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0)),
         title: "Consulenza Legale",
@@ -135,12 +104,12 @@ const services = [
                 d: "M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
             }, void 0, false, {
                 fileName: "[project]/src/app/servizi/page.tsx",
-                lineNumber: 55,
+                lineNumber: 39,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/src/app/servizi/page.tsx",
-            lineNumber: 54,
+            lineNumber: 38,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0)),
         title: "Valutazioni Immobiliari",
@@ -166,12 +135,12 @@ const services = [
                 d: "M4 6h16M4 10h10M4 14h7m-3 4h3"
             }, void 0, false, {
                 fileName: "[project]/src/app/servizi/page.tsx",
-                lineNumber: 71,
+                lineNumber: 55,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/src/app/servizi/page.tsx",
-            lineNumber: 70,
+            lineNumber: 54,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0)),
         title: "Rendering & Arredamento d'Interni",
@@ -197,12 +166,12 @@ const services = [
                 d: "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
             }, void 0, false, {
                 fileName: "[project]/src/app/servizi/page.tsx",
-                lineNumber: 93,
+                lineNumber: 77,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/src/app/servizi/page.tsx",
-            lineNumber: 92,
+            lineNumber: 76,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0)),
         title: "Consulenza Investimenti",
@@ -230,7 +199,7 @@ function Servizi() {
                             children: "I Nostri Servizi"
                         }, void 0, false, {
                             fileName: "[project]/src/app/servizi/page.tsx",
-                            lineNumber: 114,
+                            lineNumber: 98,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -238,18 +207,18 @@ function Servizi() {
                             children: "Offriamo una gamma completa di servizi immobiliari per soddisfare ogni tua esigenza"
                         }, void 0, false, {
                             fileName: "[project]/src/app/servizi/page.tsx",
-                            lineNumber: 117,
+                            lineNumber: 101,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/servizi/page.tsx",
-                    lineNumber: 113,
+                    lineNumber: 97,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/servizi/page.tsx",
-                lineNumber: 112,
+                lineNumber: 96,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -266,7 +235,7 @@ function Servizi() {
                                         children: service.icon
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/servizi/page.tsx",
-                                        lineNumber: 132,
+                                        lineNumber: 116,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -274,7 +243,7 @@ function Servizi() {
                                         children: service.title
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/servizi/page.tsx",
-                                        lineNumber: 135,
+                                        lineNumber: 119,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -282,7 +251,7 @@ function Servizi() {
                                         children: service.description
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/servizi/page.tsx",
-                                        lineNumber: 138,
+                                        lineNumber: 122,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -302,12 +271,12 @@ function Servizi() {
                                                             d: "M5 13l4 4L19 7"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/servizi/page.tsx",
-                                                            lineNumber: 145,
+                                                            lineNumber: 129,
                                                             columnNumber: 25
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/servizi/page.tsx",
-                                                        lineNumber: 144,
+                                                        lineNumber: 128,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -315,39 +284,39 @@ function Servizi() {
                                                         children: feature
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/servizi/page.tsx",
-                                                        lineNumber: 147,
+                                                        lineNumber: 131,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, idx, true, {
                                                 fileName: "[project]/src/app/servizi/page.tsx",
-                                                lineNumber: 143,
+                                                lineNumber: 127,
                                                 columnNumber: 21
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/servizi/page.tsx",
-                                        lineNumber: 141,
+                                        lineNumber: 125,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/src/app/servizi/page.tsx",
-                                lineNumber: 128,
+                                lineNumber: 112,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/app/servizi/page.tsx",
-                        lineNumber: 126,
+                        lineNumber: 110,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/servizi/page.tsx",
-                    lineNumber: 125,
+                    lineNumber: 109,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/servizi/page.tsx",
-                lineNumber: 124,
+                lineNumber: 108,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -366,75 +335,23 @@ function Servizi() {
                                         children: "Neal Developments"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/servizi/page.tsx",
-                                        lineNumber: 162,
+                                        lineNumber: 146,
                                         columnNumber: 32
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/servizi/page.tsx",
-                                lineNumber: 161,
+                                lineNumber: 145,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/servizi/page.tsx",
-                            lineNumber: 160,
+                            lineNumber: 144,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8",
+                            className: "grid grid-cols-1 md:grid-cols-3 gap-8",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "text-center",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-20 h-20 bg-[#38bdf8]/10 rounded-full flex items-center justify-center mx-auto",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                                className: "w-10 h-10 text-[#1e6bb8]",
-                                                fill: "none",
-                                                viewBox: "0 0 24 24",
-                                                stroke: "currentColor",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                    strokeLinecap: "round",
-                                                    strokeLinejoin: "round",
-                                                    strokeWidth: 1.5,
-                                                    d: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/servizi/page.tsx",
-                                                    lineNumber: 170,
-                                                    columnNumber: 19
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/servizi/page.tsx",
-                                                lineNumber: 169,
-                                                columnNumber: 17
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/servizi/page.tsx",
-                                            lineNumber: 168,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "text-xl font-bold text-[#0d2644] mt-4",
-                                            children: "Affidabilità"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/servizi/page.tsx",
-                                            lineNumber: 173,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-[#64748b] mt-2",
-                                            children: "15+ anni di esperienza nel mercato immobiliare ticinese"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/servizi/page.tsx",
-                                            lineNumber: 174,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/app/servizi/page.tsx",
-                                    lineNumber: 167,
-                                    columnNumber: 13
-                                }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "text-center",
                                     children: [
@@ -452,17 +369,17 @@ function Servizi() {
                                                     d: "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/servizi/page.tsx",
-                                                    lineNumber: 180,
+                                                    lineNumber: 154,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/servizi/page.tsx",
-                                                lineNumber: 179,
+                                                lineNumber: 153,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/servizi/page.tsx",
-                                            lineNumber: 178,
+                                            lineNumber: 152,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -470,7 +387,7 @@ function Servizi() {
                                             children: "Team Esperto"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/servizi/page.tsx",
-                                            lineNumber: 183,
+                                            lineNumber: 157,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -478,13 +395,13 @@ function Servizi() {
                                             children: "Professionisti qualificati e sempre aggiornati"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/servizi/page.tsx",
-                                            lineNumber: 184,
+                                            lineNumber: 158,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/servizi/page.tsx",
-                                    lineNumber: 177,
+                                    lineNumber: 151,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -504,17 +421,17 @@ function Servizi() {
                                                     d: "M13 10V3L4 14h7v7l9-11h-7z"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/servizi/page.tsx",
-                                                    lineNumber: 190,
+                                                    lineNumber: 164,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/servizi/page.tsx",
-                                                lineNumber: 189,
+                                                lineNumber: 163,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/servizi/page.tsx",
-                                            lineNumber: 188,
+                                            lineNumber: 162,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -522,7 +439,7 @@ function Servizi() {
                                             children: "Velocità"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/servizi/page.tsx",
-                                            lineNumber: 193,
+                                            lineNumber: 167,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -530,13 +447,13 @@ function Servizi() {
                                             children: "Processi ottimizzati per risultati rapidi"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/servizi/page.tsx",
-                                            lineNumber: 194,
+                                            lineNumber: 168,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/servizi/page.tsx",
-                                    lineNumber: 187,
+                                    lineNumber: 161,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -556,17 +473,17 @@ function Servizi() {
                                                     d: "M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/servizi/page.tsx",
-                                                    lineNumber: 200,
+                                                    lineNumber: 174,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/servizi/page.tsx",
-                                                lineNumber: 199,
+                                                lineNumber: 173,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/servizi/page.tsx",
-                                            lineNumber: 198,
+                                            lineNumber: 172,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -574,7 +491,7 @@ function Servizi() {
                                             children: "Dedizione"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/servizi/page.tsx",
-                                            lineNumber: 203,
+                                            lineNumber: 177,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -582,30 +499,30 @@ function Servizi() {
                                             children: "Attenzione personalizzata per ogni cliente"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/servizi/page.tsx",
-                                            lineNumber: 204,
+                                            lineNumber: 178,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/servizi/page.tsx",
-                                    lineNumber: 197,
+                                    lineNumber: 171,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/servizi/page.tsx",
-                            lineNumber: 166,
+                            lineNumber: 150,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/servizi/page.tsx",
-                    lineNumber: 159,
+                    lineNumber: 143,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/servizi/page.tsx",
-                lineNumber: 158,
+                lineNumber: 142,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -618,7 +535,7 @@ function Servizi() {
                             children: "Hai bisogno di assistenza?"
                         }, void 0, false, {
                             fileName: "[project]/src/app/servizi/page.tsx",
-                            lineNumber: 213,
+                            lineNumber: 187,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -626,7 +543,7 @@ function Servizi() {
                             children: "Contattaci per una consulenza gratuita e scopri come possiamo aiutarti"
                         }, void 0, false, {
                             fileName: "[project]/src/app/servizi/page.tsx",
-                            lineNumber: 216,
+                            lineNumber: 190,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -637,29 +554,29 @@ function Servizi() {
                                 children: "Richiedi una Consulenza"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/servizi/page.tsx",
-                                lineNumber: 220,
+                                lineNumber: 194,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/servizi/page.tsx",
-                            lineNumber: 219,
+                            lineNumber: 193,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/servizi/page.tsx",
-                    lineNumber: 212,
+                    lineNumber: 186,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/servizi/page.tsx",
-                lineNumber: 211,
+                lineNumber: 185,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/servizi/page.tsx",
-        lineNumber: 110,
+        lineNumber: 94,
         columnNumber: 5
     }, this);
 }

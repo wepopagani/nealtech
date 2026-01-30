@@ -1,6 +1,8 @@
 {
+  "/about/page": "app/about/page.js",
+  "/contatti/page": "app/contatti/page.js",
+  "/immobili/chiasso/[id]/page": "app/immobili/chiasso/[id]/page.js",
   "/immobili/chiasso/page": "app/immobili/chiasso/page.js",
-  "/immobili/pambio/page": "app/immobili/pambio/page.js",
   "/page": "app/page.js",
   "/servizi/page": "app/servizi/page.js"
 }

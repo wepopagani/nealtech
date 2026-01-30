@@ -16,8 +16,8 @@ export default function Footer() {
               className="h-14 w-auto mb-4 brightness-0 invert"
             />
             <p className="text-gray-300 mt-4 max-w-md">
-              Neal Developments è la tua agenzia immobiliare di fiducia in Ticino. 
-              Ti aiutiamo a trovare la casa dei tuoi sogni a Chiasso, Pambio e in tutta la regione.
+              Neal Developments ti accompagna nella ricerca dell'immobile perfetto in Ticino. 
+              Scopri le nostre esclusive proprietà a Chiasso, Pambio e in tutta la regione.
             </p>
             <div className="flex space-x-4 mt-6">
               <a href="#" className="text-gray-300 hover:text-[#38bdf8] transition-colors">

@@ -34,19 +34,17 @@ const apartments = [
         floor: "Primo Piano",
         availability: "Disponibile",
         description: "Appartamento completamente ristrutturato con cucina nuova e finiture moderne.",
-        longDescription: `Appartamento completamente ristrutturato al primo piano in posizione comoda a Chiasso.
+        longDescription: `Monolocale al primo piano completamente ristrutturato, pensato per offrire comfort in uno spazio contenuto.
 
-Gli ambienti sono stati rinnovati con sanitari nuovi e cucina nuova completamente attrezzata, pensata per un uso quotidiano pratico e moderno.
+Gli ambienti sono stati rinnovati con una zona giorno open space ,  sanitari nuovi modello Aquaclean Alba e cucina nuova completamente attrezzata, pensata per un uso quotidiano pratico e moderno.
 
-Il pavimento è in SPC, resistente e di facile manutenzione, gli infissi sono in ottimo stato e garantiscono un buon isolamento. Il riscaldamento non è a pavimento, ideale per chi preferisce impianti tradizionali.`,
+Il pavimento è in SPC, resistente e di facile manutenzione, gli infissi sono in ottimo stato e garantiscono un buon isolamento acustico e comfort termico.`,
         features: [
-            "Appartamento completamente ristrutturato",
-            "Sanitari nuovi",
-            "Cucina nuova completamente attrezzata",
+            "Appartamento ristrutturato",
+            "Cucina nuova attrezzata",
             "Pavimento in SPC",
+            "Sanitari Aquaclean",
             "Infissi in ottimo stato",
-            "Riscaldamento non a pavimento",
-            "WC con funzione bidet",
             "Termosifoni in ogni stanza"
         ],
         included: [
@@ -83,19 +81,17 @@ Il pavimento è in SPC, resistente e di facile manutenzione, gli infissi sono in
         floor: "Primo Piano",
         availability: "Venduto",
         description: "Appartamento completamente ristrutturato con cucina nuova e finiture moderne.",
-        longDescription: `Appartamento completamente ristrutturato al primo piano, ideale come investimento o pied-à-terre a Chiasso.
+        longDescription: `Monolocale al primo piano completamente ristrutturato, pensato per offrire comfort in uno spazio contenuto.
 
-Sono stati rifatti sanitari e bagno, la cucina è nuova e completamente attrezzata, con spazi ottimizzati per l'uso quotidiano.
+Gli ambienti sono stati rinnovati con una zona giorno open space ,  sanitari nuovi modello Aquaclean Alba e cucina nuova completamente attrezzata, pensata per un uso quotidiano pratico e moderno.
 
-Il pavimento è in SPC, pratico e resistente, gli infissi sono in ottime condizioni e garantiscono comfort termico e acustico. Il riscaldamento non è a pavimento, ma con impianto tradizionale.`,
+Il pavimento è in SPC, resistente e di facile manutenzione, gli infissi sono in ottimo stato e garantiscono un buon isolamento acustico e comfort termico.`,
         features: [
-            "Appartamento completamente ristrutturato",
-            "Sanitari nuovi",
-            "Cucina nuova completamente attrezzata",
+            "Appartamento ristrutturato",
+            "Cucina nuova attrezzata",
             "Pavimento in SPC",
+            "Sanitari Aquaclean",
             "Infissi in ottimo stato",
-            "Riscaldamento non a pavimento",
-            "WC con funzione bidet",
             "Termosifoni in ogni stanza"
         ],
         included: [
@@ -134,17 +130,15 @@ Il pavimento è in SPC, pratico e resistente, gli infissi sono in ottime condizi
         description: "Bilocale completamente ristrutturato con cucina nuova e pavimento in SPC.",
         longDescription: `Bilocale al primo piano completamente ristrutturato, con spazi ben organizzati e ambienti luminosi.
 
-La zona giorno è stata rinnovata con cucina nuova completamente attrezzata, mentre il bagno dispone di sanitari nuovi e finiture moderne.
+Gli ambienti sono stati rinnovati con una zona giorno open space ,  sanitari nuovi modello Aquaclean Alba e cucina nuova completamente attrezzata, pensata per un uso quotidiano pratico e moderno.
 
-In tutto l'appartamento è stato posato pavimento in SPC, gli infissi sono in ottimo stato e il riscaldamento non è a pavimento, per chi preferisce soluzioni tradizionali.`,
+Il pavimento è in SPC, resistente e di facile manutenzione, gli infissi sono in ottimo stato e garantiscono un buon isolamento acustico e comfort termico.`,
         features: [
-            "Appartamento completamente ristrutturato",
-            "Sanitari nuovi",
-            "Cucina nuova completamente attrezzata",
+            "Appartamento ristrutturato",
+            "Cucina nuova attrezzata",
             "Pavimento in SPC",
+            "Sanitari Aquaclean",
             "Infissi in ottimo stato",
-            "Riscaldamento non a pavimento",
-            "WC con funzione bidet",
             "Termosifoni in ogni stanza"
         ],
         included: [
@@ -179,19 +173,17 @@ In tutto l'appartamento è stato posato pavimento in SPC, gli infissi sono in ot
         floor: "Primo Piano",
         availability: "Disponibile",
         description: "Monolocale completamente ristrutturato con sanitari e cucina nuovi.",
-        longDescription: `Monolocale al primo piano completamente ristrutturato, ideale per single o come investimento.
+        longDescription: `Monolocale al primo piano completamente ristrutturato, pensato per offrire comfort in uno spazio contenuto.
 
-Sono stati rifatti completamente bagno e sanitari, la cucina è nuova e completamente attrezzata, con soluzione compatta ma funzionale.
+Gli ambienti sono stati rinnovati con una zona giorno open space ,  sanitari nuovi modello Aquaclean Alba e cucina nuova completamente attrezzata, pensata per un uso quotidiano pratico e moderno.
 
-Il pavimento è in SPC, molto resistente e facile da pulire, gli infissi sono in ottimo stato e il riscaldamento non è a pavimento.`,
+Il pavimento è in SPC, resistente e di facile manutenzione, gli infissi sono in ottimo stato e garantiscono un buon isolamento acustico e comfort termico.`,
         features: [
-            "Appartamento completamente ristrutturato",
-            "Sanitari nuovi",
-            "Cucina nuova completamente attrezzata",
+            "Appartamento ristrutturato",
+            "Cucina nuova attrezzata",
             "Pavimento in SPC",
+            "Sanitari Aquaclean",
             "Infissi in ottimo stato",
-            "Riscaldamento non a pavimento",
-            "WC con funzione bidet",
             "Termosifoni in ogni stanza"
         ],
         included: [
@@ -228,17 +220,15 @@ Il pavimento è in SPC, molto resistente e facile da pulire, gli infissi sono in
         description: "Monolocale completamente ristrutturato con cucina nuova e pavimento in SPC.",
         longDescription: `Monolocale al primo piano completamente ristrutturato, pensato per offrire comfort in uno spazio contenuto.
 
-La cucina è nuova e completamente attrezzata, il bagno è stato rifatto con sanitari nuovi e finiture attuali.
+Gli ambienti sono stati rinnovati con una zona giorno open space ,  sanitari nuovi modello Aquaclean Alba e cucina nuova completamente attrezzata, pensata per un uso quotidiano pratico e moderno.
 
-Il pavimento è in SPC in tutto l'appartamento, gli infissi sono in ottimo stato e il riscaldamento non è a pavimento.`,
+Il pavimento è in SPC, resistente e di facile manutenzione, gli infissi sono in ottimo stato e garantiscono un buon isolamento acustico e comfort termico.`,
         features: [
-            "Appartamento completamente ristrutturato",
-            "Sanitari nuovi",
-            "Cucina nuova completamente attrezzata",
+            "Appartamento ristrutturato",
+            "Cucina nuova attrezzata",
             "Pavimento in SPC",
+            "Sanitari Aquaclean",
             "Infissi in ottimo stato",
-            "Riscaldamento non a pavimento",
-            "WC con funzione bidet",
             "Termosifoni in ogni stanza"
         ],
         included: [
@@ -275,19 +265,17 @@ Il pavimento è in SPC in tutto l'appartamento, gli infissi sono in ottimo stato
         floor: "Primo Piano",
         availability: "Disponibile",
         description: "Bilocale completamente ristrutturato con cucina nuova e pavimento in SPC.",
-        longDescription: `Bilocale al primo piano completamente ristrutturato, con metratura generosa e ambienti ben distribuiti.
+        longDescription: `Bilocale al primo piano completamente ristrutturato, con spazi ben organizzati e ambienti luminosi.
 
-La cucina è nuova e completamente attrezzata, il bagno è stato rinnovato con sanitari nuovi e rivestimenti moderni.
+Gli ambienti sono stati rinnovati con una zona giorno open space ,  sanitari nuovi modello Aquaclean Alba e cucina nuova completamente attrezzata, pensata per un uso quotidiano pratico e moderno.
 
-In tutto l'appartamento è presente pavimento in SPC, gli infissi sono in ottimo stato e il riscaldamento non è a pavimento.`,
+Il pavimento è in SPC, resistente e di facile manutenzione, gli infissi sono in ottimo stato e garantiscono un buon isolamento acustico e comfort termico.`,
         features: [
-            "Appartamento completamente ristrutturato",
-            "Sanitari nuovi",
-            "Cucina nuova completamente attrezzata",
+            "Appartamento ristrutturato",
+            "Cucina nuova attrezzata",
             "Pavimento in SPC",
+            "Sanitari Aquaclean",
             "Infissi in ottimo stato",
-            "Riscaldamento non a pavimento",
-            "WC con funzione bidet",
             "Termosifoni in ogni stanza"
         ],
         included: [
@@ -323,19 +311,17 @@ In tutto l'appartamento è presente pavimento in SPC, gli infissi sono in ottimo
         floor: "Primo Piano",
         availability: "Disponibile",
         description: "Bilocale completamente ristrutturato con cucina open space e pavimento in SPC.",
-        longDescription: `Bilocale al primo piano completamente ristrutturato, con zona giorno open space e finiture moderne.
+        longDescription: `Bilocale al primo piano completamente ristrutturato, con spazi ben organizzati e ambienti luminosi.
 
-Gli interventi hanno riguardato sanitari e bagno completamente nuovi, oltre a una cucina nuova e completamente attrezzata inserita in un soggiorno luminoso.
+Gli ambienti sono stati rinnovati con una zona giorno open space ,  sanitari nuovi modello Aquaclean Alba e cucina nuova completamente attrezzata, pensata per un uso quotidiano pratico e moderno.
 
-Il pavimento è in SPC, molto resistente e di facile gestione, gli infissi sono in ottimo stato e il riscaldamento non è a pavimento.`,
+Il pavimento è in SPC, resistente e di facile manutenzione, gli infissi sono in ottimo stato e garantiscono un buon isolamento acustico e comfort termico.`,
         features: [
-            "Appartamento completamente ristrutturato",
-            "Sanitari nuovi",
-            "Cucina nuova completamente attrezzata",
+            "Appartamento ristrutturato",
+            "Cucina nuova attrezzata",
             "Pavimento in SPC",
+            "Sanitari Aquaclean",
             "Infissi in ottimo stato",
-            "Riscaldamento non a pavimento",
-            "WC con funzione bidet",
             "Termosifoni in ogni stanza"
         ],
         included: [

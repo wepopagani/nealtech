@@ -201,22 +201,21 @@ export default function ApartmentDetailClient({ apartment }: { apartment: Apartm
                 {apartment.features.map((f, i) => (
                   <div key={i} className="flex items-center">
                     <svg className="w-5 h-5 text-[#38bdf8] mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                    <span className="text-[#64748b]">{f}</span>
+                    {f === "Sanitari Aquaclean" ? (
+                      <a 
+                        href="https://cdn.data.geberit.com/documents/971.835.00.0_00.pdf" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-[#1e6bb8] hover:text-[#0d2644] hover:underline transition-colors"
+                      >
+                        {f}
+                      </a>
+                    ) : (
+                      <span className="text-[#64748b]">{f}</span>
+                    )}
                   </div>
                 ))}
               </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-lg p-6">
-              <h2 className="text-2xl font-bold text-[#0d2644] mb-4">Incluso</h2>
-              <ul className="space-y-2">
-                {apartment.included.map((item, i) => (
-                  <li key={i} className="text-[#64748b] flex items-center">
-                    <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
-                    {item}
-                  </li>
-                ))}
-              </ul>
             </div>
 
             <div className="bg-white rounded-2xl shadow-lg p-6">
