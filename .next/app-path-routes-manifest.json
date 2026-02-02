@@ -1,6 +1,7 @@
 {
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
   "/apple-icon.png/route": "/apple-icon.png",
   "/contatti/page": "/contatti",
   "/icon.png/route": "/icon.png",

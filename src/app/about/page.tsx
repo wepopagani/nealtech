@@ -11,170 +11,130 @@ export default function About() {
             Chi Siamo
           </h1>
           <p className="mt-4 text-lg text-gray-200 max-w-2xl mx-auto">
-            Scopri la storia e i valori di Neal Developments
+            Sviluppo immobiliare attraverso un metodo solido e strutturato
           </p>
         </div>
       </section>
 
-      {/* La Nostra Storia */}
+      {/* Introduzione con Logo */}
       <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-[#0d2644]">
-                La Nostra <span className="brand-gradient-text">Storia</span>
-              </h2>
-              <p className="mt-6 text-lg text-[#64748b] leading-relaxed">
-                [Qui puoi inserire la storia della tua azienda, come è nata, quali sono stati i momenti chiave del suo sviluppo, e come sei arrivato dove sei oggi.]
-              </p>
-              <p className="mt-4 text-lg text-[#64748b] leading-relaxed">
-                [Racconta l'evoluzione della tua attività, i progetti più significativi, e come hai costruito la tua reputazione nel mercato immobiliare ticinese.]
-              </p>
-            </div>
-            <div className="relative h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-xl">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="flex justify-center mb-12">
               <Image
-                src="/images/RENDER REV_1/APPARTAMENTO C/1.png"
+                src="/images/logo.png"
                 alt="Neal Developments"
-                fill
-                className="object-cover"
+                width={300}
+                height={100}
+                className="h-24 w-auto"
               />
             </div>
+            <p className="text-lg text-[#64748b] leading-relaxed">
+              NEAL Developments opera nello sviluppo immobiliare attraverso un modello diretto e strutturato, basato sull'investimento, sulla trasformazione degli immobili e sulla loro valorizzazione nel tempo.
+            </p>
           </div>
         </div>
       </section>
 
-      {/* I Nostri Valori */}
+      {/* Il Nostro Approccio */}
       <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0d2644]">
-              I Nostri <span className="brand-gradient-text">Valori</span>
-            </h2>
-            <p className="mt-4 text-lg text-[#64748b] max-w-2xl mx-auto">
-              [Descrivi brevemente i valori fondamentali che guidano il tuo lavoro]
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#0d2644] text-center mb-12">
+            Il Nostro <span className="brand-gradient-text">Approccio</span>
+          </h2>
+          <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg">
+            <p className="text-lg text-[#64748b] leading-relaxed mb-6">
+              L'attività si fonda su un approccio integrato che governa l'intero ciclo di sviluppo: dall'individuazione degli immobili alla loro ristrutturazione, fino al posizionamento e alla commercializzazione sul mercato.
+            </p>
+            <p className="text-lg text-[#64748b] leading-relaxed">
+              Ogni intervento nasce da una scelta consapevole e da un'analisi puntuale del potenziale dell'immobile, con l'obiettivo di generare asset coerenti, leggibili e solidi.
             </p>
           </div>
+        </div>
+      </section>
 
+      {/* La Nostra Visione */}
+      <section className="py-20 bg-white">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#0d2644] text-center mb-12">
+            La Nostra <span className="brand-gradient-text">Visione</span>
+          </h2>
+          <div className="bg-gray-50 rounded-2xl p-8 md:p-12">
+            <p className="text-lg text-[#64748b] leading-relaxed mb-6">
+              La visione di NEAL Developments è costruita sull'equilibrio tra strategia e operatività. Le diverse fasi del processo non vengono trattate come passaggi indipendenti, ma come parti di un unico sistema, gestito con controllo, metodo e continuità decisionale.
+            </p>
+            <p className="text-lg text-[#64748b] leading-relaxed">
+              Gli immobili sviluppati vengono portati sul mercato direttamente, come naturale esito di un processo interamente governato. Un approccio che garantisce coerenza tra ciò che viene progettato, realizzato e proposto, offrendo un interlocutore unico e una visione chiara del valore dell'intervento.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Il Significato del Nome */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#0d2644] text-center mb-12">
+            Il Significato del <span className="brand-gradient-text">Nome</span>
+          </h2>
+          <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg">
+            <p className="text-lg text-[#64748b] leading-relaxed mb-6">
+              Questa impostazione è sintetizzata anche nell'identità del marchio. NEAL prende forma dall'unione dei cognomi dei due soci fondatori e si esprime come un sistema architettonico: due volumi distinti ma complementari, affiancati e connessi da un percorso di sviluppo comune.
+            </p>
+            <p className="text-lg text-[#64748b] leading-relaxed">
+              Un segno essenziale che richiama solidità, progressione e visione, dove la crescita è il risultato di scelte costruite nel tempo e di un metodo coerente.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Il Nostro Metodo */}
+      <section className="py-20 bg-white">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#0d2644] text-center mb-12">
+            Il Nostro <span className="brand-gradient-text">Metodo</span>
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <div className="w-16 h-16 bg-[#38bdf8]/10 rounded-full flex items-center justify-center">
-                <svg className="w-8 h-8 text-[#1e6bb8]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div className="text-center">
+              <div className="w-20 h-20 bg-[#38bdf8]/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg className="w-10 h-10 text-[#1e6bb8]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#0d2644] mt-6">Trasparenza</h3>
-              <p className="text-[#64748b] mt-4">
-                [Descrivi come applichi la trasparenza nel tuo lavoro quotidiano]
+              <h3 className="text-xl font-bold text-[#0d2644] mb-4">Qualità</h3>
+              <p className="text-[#64748b]">
+                Ogni progetto è concepito come un'operazione strutturata e di qualità
               </p>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <div className="w-16 h-16 bg-[#38bdf8]/10 rounded-full flex items-center justify-center">
-                <svg className="w-8 h-8 text-[#1e6bb8]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            <div className="text-center">
+              <div className="w-20 h-20 bg-[#38bdf8]/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg className="w-10 h-10 text-[#1e6bb8]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#0d2644] mt-6">Competenza</h3>
-              <p className="text-[#64748b] mt-4">
-                [Spiega come mantieni elevati standard professionali e aggiorni le tue competenze]
+              <h3 className="text-xl font-bold text-[#0d2644] mb-4">Controllo</h3>
+              <p className="text-[#64748b]">
+                Gestione diretta e completa di ogni fase del processo di sviluppo
               </p>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <div className="w-16 h-16 bg-[#38bdf8]/10 rounded-full flex items-center justify-center">
-                <svg className="w-8 h-8 text-[#1e6bb8]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+            <div className="text-center">
+              <div className="w-20 h-20 bg-[#38bdf8]/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg className="w-10 h-10 text-[#1e6bb8]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#0d2644] mt-6">Passione</h3>
-              <p className="text-[#64748b] mt-4">
-                [Racconta la tua passione per il settore immobiliare e come questo si riflette nel tuo lavoro]
+              <h3 className="text-xl font-bold text-[#0d2644] mb-4">Posizionamento</h3>
+              <p className="text-[#64748b]">
+                Capacità di interpretare il contesto e rispondere alle dinamiche del mercato
               </p>
             </div>
           </div>
-        </div>
-      </section>
 
-      {/* La Nostra Missione */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0d2644]">
-              La Nostra <span className="brand-gradient-text">Missione</span>
-            </h2>
-            <p className="mt-6 text-lg text-[#64748b] leading-relaxed">
-              [Descrivi la missione della tua azienda: qual è il tuo obiettivo principale? Come vuoi fare la differenza nel mercato immobiliare? Quali sono le esigenze dei clienti che vuoi soddisfare?]
+          <div className="mt-12 bg-gray-50 rounded-2xl p-8 md:p-12 text-center">
+            <p className="text-lg text-[#64748b] leading-relaxed">
+              NEAL Developments opera secondo una logica di qualità, controllo e posizionamento. Ogni progetto è concepito come un'operazione strutturata, capace di interpretare il contesto e di rispondere in modo consapevole alle dinamiche del mercato.
             </p>
-            <p className="mt-4 text-lg text-[#64748b] leading-relaxed">
-              [Spiega cosa ti distingue dagli altri professionisti del settore e perché i clienti dovrebbero scegliere di lavorare con te.]
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Il Team */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0d2644]">
-              Il Nostro <span className="brand-gradient-text">Team</span>
-            </h2>
-            <p className="mt-4 text-lg text-[#64748b] max-w-2xl mx-auto">
-              [Introduci il tuo team e le persone che lavorano con te]
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Team Member 1 - Esempio */}
-            <div className="bg-white rounded-2xl overflow-hidden shadow-lg">
-              <div className="relative h-64 bg-gradient-to-br from-[#0d2644] to-[#1e6bb8]">
-                {/* Inserisci qui l'immagine del team member se disponibile */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <svg className="w-24 h-24 text-white/20" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                  </svg>
-                </div>
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-[#0d2644]">[Nome]</h3>
-                <p className="text-[#1e6bb8] font-medium mt-1">[Ruolo]</p>
-                <p className="text-[#64748b] mt-4">
-                  [Breve descrizione del team member, esperienza e specializzazioni]
-                </p>
-              </div>
-            </div>
-
-            {/* Aggiungi altri membri del team qui */}
-          </div>
-        </div>
-      </section>
-
-      {/* Le Nostre Zone di Servizio */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0d2644]">
-              Dove <span className="brand-gradient-text">Operiamo</span>
-            </h2>
-            <p className="mt-4 text-lg text-[#64748b] max-w-2xl mx-auto">
-              [Descrivi le zone geografiche in cui operi e la tua conoscenza del territorio]
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-gray-50 rounded-2xl p-8">
-              <h3 className="text-2xl font-bold text-[#0d2644]">Chiasso</h3>
-              <p className="text-[#64748b] mt-4">
-                [Descrivi la tua esperienza e conoscenza della zona di Chiasso, i progetti realizzati, e perché è un'area interessante]
-              </p>
-            </div>
-
-            <div className="bg-gray-50 rounded-2xl p-8">
-              <h3 className="text-2xl font-bold text-[#0d2644]">Pambio</h3>
-              <p className="text-[#64748b] mt-4">
-                [Descrivi la tua esperienza e conoscenza della zona di Pambio, i progetti realizzati, e perché è un'area interessante]
-              </p>
-            </div>
           </div>
         </div>
       </section>
@@ -183,23 +143,23 @@ export default function About() {
       <section className="py-20 brand-gradient">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white">
-            Vuoi conoscerci meglio?
+            Scopri i Nostri Progetti
           </h2>
           <p className="mt-4 text-lg text-gray-200 max-w-2xl mx-auto">
-            Contattaci per una consulenza gratuita e scopri come possiamo aiutarti
+            Esplora gli immobili sviluppati e valorizzati secondo il nostro metodo
           </p>
           <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
             <Link
-              href="/contatti"
+              href="/immobili/chiasso"
               className="inline-flex items-center justify-center bg-white text-[#0d2644] px-8 py-4 rounded-full font-semibold hover:shadow-xl hover:scale-105 transition-all duration-300"
             >
-              Contattaci
+              Vedi i Nostri Immobili
             </Link>
             <Link
-              href="/immobili/chiasso"
+              href="/contatti"
               className="inline-flex items-center justify-center bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white/10 transition-all duration-300"
             >
-              Vedi i Nostri Immobili
+              Contattaci
             </Link>
           </div>
         </div>

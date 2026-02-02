@@ -79,6 +79,12 @@ export default function Navbar() {
               Servizi
             </Link>
             <Link
+              href="/about"
+              className="text-[#0d2644] hover:text-[#1e6bb8] font-medium transition-colors duration-200"
+            >
+              Chi Siamo
+            </Link>
+            <Link
               href="/contatti"
               className="text-[#0d2644] hover:text-[#1e6bb8] font-medium transition-colors duration-200"
             >
@@ -166,6 +172,13 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
             >
               Servizi
+            </Link>
+            <Link
+              href="/about"
+              className="block py-2 text-[#0d2644] hover:text-[#1e6bb8] font-medium"
+              onClick={() => setIsOpen(false)}
+            >
+              Chi Siamo
             </Link>
             <Link
               href="/contatti"
