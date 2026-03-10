@@ -25,7 +25,7 @@ export const apartments: Apartment[] = [
     title: "Appartamento A",
     address: "Via Example 1",
     city: "Chiasso",
-    price: "CHF 230'000",
+    price: "Prezzo su richiesta",
     priceNumeric: 230000,
     type: "Vendita",
     images: [
@@ -118,7 +118,7 @@ Il pavimento è in SPC, resistente e di facile manutenzione, gli infissi sono in
     title: "Appartamento C",
     address: "Via Example 1",
     city: "Chiasso",
-    price: "CHF 350'000",
+    price: "Prezzo su richiesta",
     priceNumeric: 350000,
     type: "Vendita",
     images: [
@@ -165,7 +165,7 @@ Il pavimento è in SPC, resistente e di facile manutenzione, gli infissi sono in
     title: "Appartamento D",
     address: "Via Example 1",
     city: "Chiasso",
-    price: "CHF 205'000",
+    price: "Prezzo su richiesta",
     priceNumeric: 205000,
     type: "Vendita",
     images: [
@@ -210,7 +210,7 @@ Il pavimento è in SPC, resistente e di facile manutenzione, gli infissi sono in
     title: "Appartamento E",
     address: "Via Example 1",
     city: "Chiasso",
-    price: "CHF 205'000",
+    price: "Prezzo su richiesta",
     priceNumeric: 205000,
     type: "Vendita",
     images: [
@@ -255,7 +255,7 @@ Il pavimento è in SPC, resistente e di facile manutenzione, gli infissi sono in
     title: "Appartamento F",
     address: "Via Example 1",
     city: "Chiasso",
-    price: "CHF 350'000",
+    price: "Prezzo su richiesta",
     priceNumeric: 350000,
     type: "Vendita",
     images: [
@@ -302,7 +302,7 @@ Il pavimento è in SPC, resistente e di facile manutenzione, gli infissi sono in
     title: "Appartamento G",
     address: "Via Example 1",
     city: "Chiasso",
-    price: "CHF 330'000",
+    price: "Prezzo su richiesta",
     priceNumeric: 330000,
     type: "Vendita",
     images: [
