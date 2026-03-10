@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/immobili/layout,_N_T_/immobili/chiasso/layout,_N_T_/immobili/chiasso/[id]/layout,_N_T_/immobili/chiasso/[id]/page,_N_T_/immobili/chiasso/F/"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/immobili/chiasso/$d$id/__PAGE__",
+    "/immobili/chiasso/$d$id",
+    "/immobili/chiasso",
+    "/immobili",
+    "/_index",
+    "/_head"
+  ]
+}

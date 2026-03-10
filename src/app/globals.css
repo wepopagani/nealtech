@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0d2644;
+  --primary-dark: #0d2644;
+  --primary-medium: #1e6bb8;
+  --primary-light: #38bdf8;
+  --accent-teal: #4ecdc4;
+  --text-gray: #64748b;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary-dark: var(--primary-dark);
+  --color-primary-medium: var(--primary-medium);
+  --color-primary-light: var(--primary-light);
+  --color-accent-teal: var(--accent-teal);
+  --color-text-gray: var(--text-gray);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Custom gradient for brand */
+.brand-gradient {
+  background: linear-gradient(135deg, #0d2644 0%, #1e6bb8 50%, #38bdf8 100%);
+}
+
+.brand-gradient-text {
+  background: linear-gradient(135deg, #0d2644 0%, #1e6bb8 50%, #38bdf8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+/* Property card hover effect */
+.property-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.property-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(13, 38, 68, 0.15);
+}
